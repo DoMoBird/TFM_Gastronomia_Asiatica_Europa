@@ -1,0 +1,14 @@
+# Entorno virtual aislado de TensorFlow (1.7 GB, no se distribuye — ver REPRODUCIBILIDAD.md)
+.venv_tf/
+.venv/
+
+# Datasets pesados y regenerables (ver data/README.md para cómo obtenerlos/regenerarlos)
+data/tripadvisor_european_restaurants.csv
+data/asian_restaurants_europe.csv
+data/asian_restaurants_preprocessed.csv
+
+# Sistema / caché
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

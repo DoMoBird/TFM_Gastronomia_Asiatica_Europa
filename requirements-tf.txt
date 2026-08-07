@@ -1,0 +1,12 @@
+# Entorno aislado para el notebook 03b_red_densa_keras.ipynb (venv .venv_tf)
+# Python 3.13.5
+# Necesario porque TensorFlow provoca un segmentation fault en el entorno principal
+# (conflicto de versión de protobuf con otros paquetes ya instalados ahí).
+# Instalación: python3 -m venv .venv_tf && source .venv_tf/bin/activate && pip install -r requirements-tf.txt
+
+tensorflow==2.21.0
+pandas==3.0.5
+numpy==2.5.1
+scikit-learn==1.9.0
+matplotlib==3.11.1
+ipykernel==7.3.0
