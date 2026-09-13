@@ -1,14 +1,16 @@
 # TFM — Peng Chen
 
-La versión de trabajo vigente está en [revision_academica](revision_academica/README.md).
+La versión vigente está en [revision_academica](revision_academica/README.md): análisis de restaurantes asiáticos en Europa, foco en España, predicción de valoración, interpretabilidad y demostrador local. Madrid es una aplicación complementaria.
 
-Mantiene la propuesta aprobada: análisis de restaurantes asiáticos en Europa, foco en España y predicción de valoración, con interpretación y demostrador local. Madrid se conserva como aplicación complementaria.
+- [Memoria PDF](revision_academica/entrega/memoria_revisada.pdf)
+- [Presentación](revision_academica/entrega/presentacion_revisada_v2.pptx)
+- [Guion](revision_academica/entrega/guion_revisado.md)
+- [Anexo ejecutado](revision_academica/entrega/anexo_modelizacion.html)
+- [Modelos reentrenados y evaluación](revision_academica/resultados/)
+- [Reproducibilidad](REPRODUCIBILIDAD.md)
+- [Datos y obtención](data/README.md)
+- [Investigación complementaria de Madrid](investigacion_madrid/README.md)
 
-Leer conjuntamente:
+Los materiales anteriores se conservan en [archivo_historico](archivo_historico/README.md). No usar sus conclusiones de inversión ni mezclar sus métricas con las vigentes. `notebooks/01_carga_exploracion.ipynb` se mantiene como paso de preparación de datos para la revisión.
 
-- [Memoria revisada](revision_academica/entrega/memoria_revisada.pdf).
-- [Presentación revisada](revision_academica/entrega/presentacion_revisada_v2.pptx).
-- [Guion revisado](revision_academica/entrega/guion_revisado.md).
-- [Anexo ejecutado](revision_academica/entrega/anexo_modelizacion.html).
-
-Los ficheros antiguos `memoria.pdf`, `presentacion_video.pptx`, `guion_video.md` y los notebooks originales se conservan como antecedentes. No usar sus conclusiones de inversión ni mezclar sus métricas con las de la revisión. El historial Git identifica la revisión publicada. No se ha enviado el trabajo a los tutores. El vídeo debe grabarlo el alumno con su propia voz.
+El historial Git identifica la revisión publicada. El trabajo no se ha enviado a los tutores. El alumno debe grabar el vídeo con su propia voz.

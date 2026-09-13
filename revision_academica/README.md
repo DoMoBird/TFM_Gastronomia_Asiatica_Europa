@@ -1,6 +1,6 @@
 # Revisión académica — Peng Chen
 
-Esta es la versión de trabajo alineada con la propuesta aprobada: **EDA europeo de restaurantes asiáticos, foco en España, predicción de rating, evaluación, interpretación y productivización**. Madrid es una aplicación complementaria. Los ficheros antiguos en la raíz de TFM no se han sobrescrito; sus conclusiones de inversión y métricas no deben mezclarse con esta revisión.
+Esta es la versión de trabajo alineada con la propuesta aprobada: **EDA europeo de restaurantes asiáticos, foco en España, predicción de rating, evaluación, interpretación y productivización**. Madrid es una aplicación complementaria. Los ficheros anteriores se conservan en `../archivo_historico/`; sus conclusiones de inversión y métricas no deben mezclarse con esta revisión.
 
 ## Lectura
 

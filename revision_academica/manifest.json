@@ -1,7 +1,7 @@
 {
   "README.md": {
-    "bytes": 1029,
-    "sha256": "080ae2b6fb15232afc9e6d4519eb87edc85cf9dae87020aef64060f3bcc7da98"
+    "bytes": 1201,
+    "sha256": "a512f3d17ad8450d38f029f2b0769e0971fa8300a0598fd7ca23218e1d3b7295"
   },
   "investigacion_madrid/05_viabilidad_madrid.ipynb": {
     "bytes": 88782,
@@ -104,8 +104,8 @@
     "sha256": "22a2f4e2a261efa7cdcb912953c70987e97267b290965dca33fded1c3a415e61"
   },
   "revision_academica/README.md": {
-    "bytes": 5429,
-    "sha256": "87d367752a431b648019ff450c8ce521ca1b150d6f8eed7d04b0c14c76b538a2"
+    "bytes": 5430,
+    "sha256": "8c990613354ab86b61237e603b8047e075b4f001f6638259fa63ab53abdeeb2e"
   },
   "revision_academica/entrega/anexo_modelizacion.html": {
     "bytes": 482284,

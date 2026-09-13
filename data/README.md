@@ -1,30 +1,11 @@
-# Datos
+# Datos para la revisión vigente
 
-## Dataset original (no incluido en el paquete de entrega)
+Los CSV grandes están excluidos de Git. No se han sustituido por datos de restaurantes de 2026: el entrenamiento sigue utilizando TripAdvisor European Restaurants, versión publicada en 2021.
 
-**`tripadvisor_european_restaurants.csv`** (~650 MB) no se incluye en este paquete por su tamaño.
-Es un dataset público que puede descargarse directamente:
+Fuente: [Kaggle — TripAdvisor European Restaurants](https://www.kaggle.com/datasets/stefanoleone992/tripadvisor-european-restaurants). La evidencia de licencia CC0 y sus límites se documentan en [DERECHOS_DATOS.md](../revision_academica/DERECHOS_DATOS.md).
 
-- **Fuente:** https://www.kaggle.com/datasets/stefanoleone992/tripadvisor-european-restaurants
-- **Licencia:** CC0 (dominio público)
-- **Descarga vía Kaggle API** (requiere `kaggle auth login`, ver `../REPRODUCIBILIDAD.md`):
+Descargar y extraer `tripadvisor_european_restaurants.csv` en esta carpeta. Ejecutar `../notebooks/01_carga_exploracion.ipynb` desde `notebooks/` para generar `asian_restaurants_europe.csv`, la entrada del entrenamiento revisado. Ambos CSV permanecen locales y no se incluyen en Git ni en el paquete de entrega.
 
-```bash
-kaggle datasets download -d stefanoleone992/tripadvisor-european-restaurants --unzip -p .
-```
+El antiguo `asian_restaurants_preprocessed.csv` no es necesario para la revisión. Las figuras, métricas y mapas antiguos se han trasladado a `../archivo_historico/data/`. Los resultados vigentes están en `../revision_academica/resultados/`.
 
-El notebook `../notebooks/01_carga_exploracion.ipynb` asume que este fichero está en esta carpeta
-y genera a partir de él los ficheros derivados (más pequeños) que sí forman parte del proyecto:
-
-## Ficheros derivados (generados por los notebooks, incluidos en el proyecto)
-
-| Fichero | Tamaño aprox. | Generado por |
-|---|---|---|
-| `asian_restaurants_europe.csv` | 55 MB | `01_carga_exploracion.ipynb` |
-| `asian_restaurants_preprocessed.csv` | 17 MB | `03_preprocesamiento_modelos.ipynb` |
-| `dense_nn_metrics.json` | <1 KB | `03b_red_densa_keras.ipynb` |
-| `fig_*.png` | ~1 MB en total | notebooks 02, 03, 04 |
-| `mapa_restaurantes_asiaticos.html` | 8,6 MB | `02_eda.ipynb` |
-
-Si se necesita reconstruir todo desde cero, basta con descargar el dataset original a esta carpeta
-y ejecutar los notebooks en el orden indicado en `../REPRODUCIBILIDAD.md`.
+Consultar [REPRODUCIBILIDAD.md](../REPRODUCIBILIDAD.md) para el orden de ejecución.
