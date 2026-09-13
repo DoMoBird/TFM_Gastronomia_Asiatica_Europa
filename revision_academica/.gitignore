@@ -1,0 +1,8 @@
+build/
+__pycache__/
+**/__pycache__/
+*.zip
+node_modules/
+.chart-data-*/
+.codex-finalizer/
+entrega/presentacion_revisada.pptx

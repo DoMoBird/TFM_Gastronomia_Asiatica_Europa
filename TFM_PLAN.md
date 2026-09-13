@@ -1,5 +1,7 @@
 # TFM - Máster Big Data, Data Science e Inteligencia Artificial (UCM Online)
 
+> **Plan histórico. Revisión vigente: 13/09/2026.** Consultar [revision_academica/README.md](revision_academica/README.md) y [correspondencia con los requisitos](revision_academica/ALINEACION_REQUISITOS.md). Se conserva el núcleo aprobado: EDA europeo, foco en España y predicción de rating. Madrid es una aplicación complementaria. Las fechas de 2025, las afirmaciones de éxito de nuevas aperturas y los estados de tareas de este documento no describen la revisión vigente.
+
 ## 📋 INFORMACIÓN GENERAL
 
 - **Alumno:** (Peng Chen)

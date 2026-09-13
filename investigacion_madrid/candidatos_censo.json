@@ -1,0 +1,2462 @@
+[
+  {
+    "id_local":"20001627",
+    "rotulo":"SUSHI MIX",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"DELICIAS",
+    "desc_vial_acceso":"PLOMO",
+    "num_acceso":"000017",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"20001845",
+    "rotulo":"MISS SUSHI",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"LEGAZPI",
+    "desc_vial_acceso":"EROS",
+    "num_acceso":"000007",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"30000530",
+    "rotulo":"MI SUSHI",
+    "desc_distrito_local":"RETIRO",
+    "desc_barrio_local":"PACIFICO",
+    "desc_vial_acceso":"VALDERRIBAS",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"30000941",
+    "rotulo":"ARTESANIA DEL DESAYUNO DON PICHI",
+    "desc_distrito_local":"RETIRO",
+    "desc_barrio_local":"IBIZA",
+    "desc_vial_acceso":"LOPE DE RUEDA",
+    "num_acceso":"000041",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"40000088",
+    "rotulo":"SUMO",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"LISTA",
+    "desc_vial_acceso":"JUAN BRAVO",
+    "num_acceso":"000066",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"40001030",
+    "rotulo":"KOUNNA SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"FUENTE DEL BERRO",
+    "desc_vial_acceso":"ANTONIO TOLEDANO",
+    "num_acceso":"000028",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"40001059",
+    "rotulo":"SUSHIAOI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"NUÑEZ DE BALBOA",
+    "num_acceso":"000037",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"40001490",
+    "rotulo":"SHUNKICHI SUSHI (PTO. 41)",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"AYALA",
+    "num_acceso":"000028",
+    "desc_situacion_local":"Baja Reunificación",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"40002451",
+    "rotulo":"CASA SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"LISTA",
+    "desc_vial_acceso":"PADILLA",
+    "num_acceso":"000058",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"40002871",
+    "rotulo":"MISS SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"CASTELLANA",
+    "desc_vial_acceso":"PADILLA",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"40000182",
+    "rotulo":"SUSHI HIWAKAYA",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GUINDALERA",
+    "desc_vial_acceso":"ERASO",
+    "num_acceso":"000014",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"50000669",
+    "rotulo":"JAPAN RESTAURANT ICHIBAN",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"HISPANOAMERICA",
+    "desc_vial_acceso":"ALBERTO ALCOCER",
+    "num_acceso":"000022",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"50001311",
+    "rotulo":"IRSUSHI",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"CASTILLA",
+    "desc_vial_acceso":"CASTELLANA",
+    "num_acceso":"000234",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"60000463",
+    "rotulo":"SUMO",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CASTILLEJOS",
+    "desc_vial_acceso":"SOR ANGELA DE LA CRUZ",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"60000529",
+    "rotulo":"MISS SUSHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"BRASIL",
+    "num_acceso":"000016",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"70000856",
+    "rotulo":"IKURA SUSHI BAR",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"RIOS ROSAS",
+    "desc_vial_acceso":"MODESTO LAFUENTE",
+    "num_acceso":"000064",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"70000844",
+    "rotulo":"99 SUSHI BAR",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"RIOS ROSAS",
+    "desc_vial_acceso":"PONZANO",
+    "num_acceso":"000099",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"70000877",
+    "rotulo":"XIN SUSHI",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"ARAPILES",
+    "desc_vial_acceso":"DONOSO CORTES",
+    "num_acceso":"000006",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"80000171",
+    "rotulo":"RUNNING SUSHI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"EL PILAR",
+    "desc_vial_acceso":"MONFORTE DE LEMOS",
+    "num_acceso":"000036",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"90000526",
+    "rotulo":"RUNNING SUSHI IN AKIHABARA",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"ARGUELLES",
+    "desc_vial_acceso":"PRINCESA",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"90001210",
+    "rotulo":"SUSHITOKYO",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"CASA DE CAMPO",
+    "desc_vial_acceso":"FLORIDA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"90000151",
+    "rotulo":"SUMO",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"EL PLANTIO",
+    "desc_vial_acceso":"VICTORIA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"100001096",
+    "rotulo":"E I PEQUEÑOS BICHITOS",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"ALUCHE",
+    "desc_vial_acceso":"OCAÑA",
+    "num_acceso":"000012",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"110003866",
+    "rotulo":"SOU SUSHI",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"BUENAVISTA",
+    "desc_vial_acceso":"CALDERILLA",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Baja Reunificación",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"150001573",
+    "rotulo":"SUSHITA LA MADONNA",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"SAN JUAN BAUTISTA",
+    "desc_vial_acceso":"DIEGO AYLLON",
+    "num_acceso":"000012",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"150001847",
+    "rotulo":"MITO SUSHI",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"SAN PASCUAL",
+    "desc_vial_acceso":"TORRELAGUNA",
+    "num_acceso":"000069",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"160001432",
+    "rotulo":"REPARACION DE OTROS BIENES DE CONSUMO NCOP",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"CANILLAS",
+    "desc_vial_acceso":"TRIBALDOS",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"160001699",
+    "rotulo":"TSUKIJI SUSHI BAR RESTAURANTE",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"PIOVERA",
+    "desc_vial_acceso":"SILVANO",
+    "num_acceso":"000092",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"160002226",
+    "rotulo":"OKELA-SUSHI & BUEY SANCHINARRO",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"VALDEFUENTES",
+    "desc_vial_acceso":"PRINCIPE CARLOS",
+    "num_acceso":"000022",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"160002058",
+    "rotulo":"SUSHI BAR",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"NUEVA ESPAÑA",
+    "desc_vial_acceso":"PIO XII",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"170001755",
+    "rotulo":"ZHENG SUSHI BAR",
+    "desc_distrito_local":"VILLAVERDE",
+    "desc_barrio_local":"LOS ROSALES",
+    "desc_vial_acceso":"MARIA CALLAS",
+    "num_acceso":"000017",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"190000210",
+    "rotulo":"KOME SUSHI",
+    "desc_distrito_local":"VICALVARO",
+    "desc_barrio_local":"VALDERRIVAS",
+    "desc_vial_acceso":"AURORA BOREAL",
+    "num_acceso":"000025",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"200000391",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"SAN BLAS-CANILLEJAS",
+    "desc_barrio_local":"ROSAS",
+    "desc_vial_acceso":"GINEBRA",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"210000291",
+    "rotulo":"AZUKI",
+    "desc_distrito_local":"BARAJAS",
+    "desc_barrio_local":"CASCO H.BARAJAS",
+    "desc_vial_acceso":"CANAL DE SUEZ",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"180001117",
+    "rotulo":"SUSHI FOOD",
+    "desc_distrito_local":"VILLA DE VALLECAS",
+    "desc_barrio_local":"ENSANCHE DE VALLECAS",
+    "desc_vial_acceso":"ADOLFO BIOY CASARES",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"210000370",
+    "rotulo":"GETSUSHI LOCALES L-EX6 Y L-2",
+    "desc_distrito_local":"BARAJAS",
+    "desc_barrio_local":"ALAMEDA DE OSUNA",
+    "desc_vial_acceso":"GALEON",
+    "num_acceso":"000027",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270025590",
+    "rotulo":"MAO SUSHI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"LA PAZ",
+    "desc_vial_acceso":"GINZO DE LIMIA",
+    "num_acceso":"000038",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270046087",
+    "rotulo":"MISS SUSHI RESTAURANTE",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"HORTALEZA",
+    "num_acceso":"000108",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270043661",
+    "rotulo":"ICHIKORO",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"CORTES",
+    "desc_vial_acceso":"ECHEGARAY",
+    "num_acceso":"000011",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270048170",
+    "rotulo":"BUEN ROLLITO SUSHI BAR",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"UNIVERSIDAD",
+    "desc_vial_acceso":"BARCO",
+    "num_acceso":"000018",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270051704",
+    "rotulo":"19 SUSHIBAR",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"SOL",
+    "desc_vial_acceso":"SALUD",
+    "num_acceso":"000019",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270059376",
+    "rotulo":"EL GÜICHI TAPEO GADITANO",
+    "desc_distrito_local":"RETIRO",
+    "desc_barrio_local":"PACIFICO",
+    "desc_vial_acceso":"MENENDEZ PELAYO",
+    "num_acceso":"000105",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270066622",
+    "rotulo":"SKY SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"RECOLETOS",
+    "num_acceso":"000011",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270076045",
+    "rotulo":"SHOW SUSHI RESTAURANTE",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"FUENTE DEL BERRO",
+    "desc_vial_acceso":"MAESTRO ALONSO",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270109932",
+    "rotulo":"CATIRE BELLO SUSHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"BERRUGUETE",
+    "desc_vial_acceso":"TABLADA",
+    "num_acceso":"000018",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270124651",
+    "rotulo":"IR SUSHI",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"RIOS ROSAS",
+    "desc_vial_acceso":"RIOS ROSAS",
+    "num_acceso":"000051",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270122449",
+    "rotulo":"SUSHITA BAR",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"ALMAGRO",
+    "desc_vial_acceso":"MIGUEL ANGEL",
+    "num_acceso":"000011",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270129711",
+    "rotulo":"LET'S SUSHI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"EL PILAR",
+    "desc_vial_acceso":"RIBADAVIA",
+    "num_acceso":"000025",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270131099",
+    "rotulo":"YICHI RAMEN",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"LA PAZ",
+    "desc_vial_acceso":"MELCHOR FERNANDEZ ALMAGRO",
+    "num_acceso":"000037",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270134285",
+    "rotulo":"SUMO",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"ARGUELLES",
+    "desc_vial_acceso":"PRINCESA",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270139416",
+    "rotulo":"AOMI SUSHI",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"PUERTA DEL ANGEL",
+    "desc_vial_acceso":"ANTONIO ZAMORA",
+    "num_acceso":"000012",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270141815",
+    "rotulo":"SUSHITARO",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"ALUCHE",
+    "desc_vial_acceso":"OCAÑA",
+    "num_acceso":"000077",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270151321",
+    "rotulo":"GO!SUSHING",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"BUENAVISTA",
+    "desc_vial_acceso":"MORALES",
+    "num_acceso":"000023",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270164902",
+    "rotulo":"KAWA SUSHI",
+    "desc_distrito_local":"MORATALAZ",
+    "desc_barrio_local":"MARROQUINA",
+    "desc_vial_acceso":"CORREGIDOR JOSE DE PASAMONTE",
+    "num_acceso":"000033",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270202616",
+    "rotulo":"SHIBARI SUSHI AND GRILL",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"EMBAJADORES",
+    "desc_vial_acceso":"CAMPILLO DEL MUNDO NUEVO",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270218122",
+    "rotulo":"TALLERES MICHIGAN SL",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"ACACIAS",
+    "desc_vial_acceso":"CARVAJALES",
+    "num_acceso":"000012",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270221475",
+    "rotulo":"JAVI SUSHI BAR",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"RIOS ROSAS",
+    "desc_vial_acceso":"ALONSO CANO",
+    "num_acceso":"000091",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270228391",
+    "rotulo":"BAOBAB SUSHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"GENERAL PERON",
+    "num_acceso":"000040",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270266631",
+    "rotulo":"ASIAN MIX SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"MANUEL BECERRA",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270240625",
+    "rotulo":"KUROI SUSHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"ALMENARA",
+    "desc_vial_acceso":"VIÑA VIRGEN",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270269009",
+    "rotulo":"REDUX SUSHI BAR",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"GAZTAMBIDE",
+    "desc_vial_acceso":"ANDRES MELLADO",
+    "num_acceso":"000080",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270271053",
+    "rotulo":"SUSHI 8",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"VENTAS",
+    "desc_vial_acceso":"SOR MARIA DE AGREDA",
+    "num_acceso":"000017",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270279672",
+    "rotulo":"REPARACIÓN DE BIENES DE CONSUMO",
+    "desc_distrito_local":"USERA",
+    "desc_barrio_local":"ALMENDRALES",
+    "desc_vial_acceso":"JESUS DEL GRAN PODER",
+    "num_acceso":"000042",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270309343",
+    "rotulo":"SIBUYA URBAN SUSHI BAR",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"ALMAGRO",
+    "desc_vial_acceso":"SANTA ENGRACIA",
+    "num_acceso":"000070",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270311885",
+    "rotulo":"SUSHI BAR TOTTORI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"LAGASCA",
+    "num_acceso":"000067",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270317384",
+    "rotulo":"RESTAURANTE GOLDEN SUSHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"PELAYO",
+    "num_acceso":"000049",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270345988",
+    "rotulo":"BUFFET KAITEN SUSHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"UNIVERSIDAD",
+    "desc_vial_acceso":"SAN BERNARDO",
+    "num_acceso":"000010",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270351449",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"RETIRO",
+    "desc_barrio_local":"ADELFAS",
+    "desc_vial_acceso":"CIUDAD DE BARCELONA",
+    "num_acceso":"000097",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270355046",
+    "rotulo":"NORI SUSHI",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"VISTA ALEGRE",
+    "desc_vial_acceso":"MATILDE HERNANDEZ",
+    "num_acceso":"000084",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270365423",
+    "rotulo":"SUSHI&RAMEN",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"DELICIAS",
+    "desc_vial_acceso":"EMBAJADORES",
+    "num_acceso":"000141",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270380487",
+    "rotulo":"SUSHI GIN",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"LISTA",
+    "desc_vial_acceso":"JOSE ORTEGA Y GASSET",
+    "num_acceso":"000067",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270395712",
+    "rotulo":"MICROCOMPUTER INFORMATICA DE CONSUMO SL",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"BELLAS VISTAS",
+    "desc_vial_acceso":"JERONIMA LLORENTE",
+    "num_acceso":"000061",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270394988",
+    "rotulo":"SUSHI DO",
+    "desc_distrito_local":"RETIRO",
+    "desc_barrio_local":"NIÑO JESUS",
+    "desc_vial_acceso":"DOCTOR LAGUNA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270399320",
+    "rotulo":"PIZZERÍA CON SERVICIO A DOMICILIO Y SIN CONSUMO EN LOCAL",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"PUERTA DEL ANGEL",
+    "desc_vial_acceso":"EXTREMADURA",
+    "num_acceso":"000136",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270404821",
+    "rotulo":"ICHI FOOD",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"CIUDAD JARDIN",
+    "desc_vial_acceso":"MARCENADO",
+    "num_acceso":"000015",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270409872",
+    "rotulo":"GRAFICHIK",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"QUINTANA",
+    "desc_vial_acceso":"ESTRECHO DE GIBRALTAR",
+    "num_acceso":"000016",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270413316",
+    "rotulo":"SUSHI 12",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"DELICIAS",
+    "desc_vial_acceso":"BATALLA DEL SALADO",
+    "num_acceso":"000030",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270431561",
+    "rotulo":"SUSHI BLUE",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"LEGAZPI",
+    "desc_vial_acceso":"BOLIVAR",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270440174",
+    "rotulo":"SADI SUSHI",
+    "desc_distrito_local":"SAN BLAS-CANILLEJAS",
+    "desc_barrio_local":"SIMANCAS",
+    "desc_vial_acceso":"CASTILLO DE AREVALO",
+    "num_acceso":"000018",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270448945",
+    "rotulo":"YAKUZA SUSHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"PALACIO",
+    "desc_vial_acceso":"SEGOVIA",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270453465",
+    "rotulo":"RESTAURANTE JAPONÉS HOKI SUSHI",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"PALOS DE LA FRONTERA",
+    "desc_vial_acceso":"FERROCARRIL",
+    "num_acceso":"000022",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270480229",
+    "rotulo":"SUSHI MIX",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"CIUDAD JARDIN",
+    "desc_vial_acceso":"SUERO DE QUIÑONES",
+    "num_acceso":"000022",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270486556",
+    "rotulo":"SUSHI YA",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"ARGUELLES",
+    "desc_vial_acceso":"CADARSO",
+    "num_acceso":"000015",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270490858",
+    "rotulo":"LIN SUSHI POKE BAR",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"CAMPAMENTO",
+    "desc_vial_acceso":"CINE",
+    "num_acceso":"000043",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270495058",
+    "rotulo":"SUMO RESTAURANTE",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"TRAFALGAR",
+    "desc_vial_acceso":"FUENCARRAL",
+    "num_acceso":"000116",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270496150",
+    "rotulo":"RESTAURANTE GINZA",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"CORTES",
+    "desc_vial_acceso":"CORTES",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270487723",
+    "rotulo":"AMARU SUSHI BAR",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"CONCEPCION",
+    "desc_vial_acceso":"VIRGEN DE LA ALEGRIA",
+    "num_acceso":"000010",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270516634",
+    "rotulo":"SUMO",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"CANILLAS",
+    "desc_vial_acceso":"SILVANO",
+    "num_acceso":"000077",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270518590",
+    "rotulo":"ALMATRICHI",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"HISPANOAMERICA",
+    "desc_vial_acceso":"ALBERTO ALCOCER",
+    "num_acceso":"000044",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270521139",
+    "rotulo":"WIMI SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"LISTA",
+    "desc_vial_acceso":"JUAN BRAVO",
+    "num_acceso":"000058",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270524597",
+    "rotulo":"BICHICOS  CLINICA VETERINARIA",
+    "desc_distrito_local":"BARAJAS",
+    "desc_barrio_local":"TIMON",
+    "desc_vial_acceso":"ALAGON",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270526558",
+    "rotulo":"ISUSHI MINI WOK",
+    "desc_distrito_local":"MORATALAZ",
+    "desc_barrio_local":"MEDIA LEGUA",
+    "desc_vial_acceso":"MANUEL MACHADO",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270529772",
+    "rotulo":"LUCKY DUMPLING SUSHI",
+    "desc_distrito_local":"SAN BLAS-CANILLEJAS",
+    "desc_barrio_local":"ARCOS",
+    "desc_vial_acceso":"GUADALAJARA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270530679",
+    "rotulo":"BAR PICHI SUSHI",
+    "desc_distrito_local":"PUENTE DE VALLECAS",
+    "desc_barrio_local":"NUMANCIA",
+    "desc_vial_acceso":"SIERRA MADRONA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270531024",
+    "rotulo":"HEMU SUSHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"SOL",
+    "desc_vial_acceso":"JARDINES",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270533762",
+    "rotulo":"SAKURA SUSHI",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"VISTA ALEGRE",
+    "desc_vial_acceso":"RAMON SAINZ",
+    "num_acceso":"000019",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270535195",
+    "rotulo":"RESTAURANTE SUSHI MOCHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"CASTELLANA",
+    "desc_vial_acceso":"VELAZQUEZ",
+    "num_acceso":"000102",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270535598",
+    "rotulo":"SKY SUSHI",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"ARAVACA",
+    "desc_vial_acceso":"EUROPA",
+    "num_acceso":"000025",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270534790",
+    "rotulo":"KISORO SUSHI",
+    "desc_distrito_local":"MORATALAZ",
+    "desc_barrio_local":"HORCAJO",
+    "desc_vial_acceso":"LAPONIA",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270536140",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"COLINA",
+    "desc_vial_acceso":"LOPEZ DE HOYOS",
+    "num_acceso":"000261",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270535986",
+    "rotulo":"ALA SUSHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CASTILLEJOS",
+    "desc_vial_acceso":"BRASIL",
+    "num_acceso":"000017",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270538272",
+    "rotulo":"EXPRESS SUSHIMAKI SL",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"CANILLAS",
+    "desc_vial_acceso":"TRIBALDOS",
+    "num_acceso":"000054",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270538446",
+    "rotulo":"ESTILO SUSHI",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"SAN JUAN BAUTISTA",
+    "desc_vial_acceso":"CIDAMON",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270538954",
+    "rotulo":"RUNNING SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"HERMOSILLA",
+    "num_acceso":"000103",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270537540",
+    "rotulo":"AMICHI \/ LOCAL A-06\/07",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"EL PLANTIO",
+    "desc_vial_acceso":"VICTORIA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270544653",
+    "rotulo":"KALA SUSHI BAR",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"JULIAN BESTEIRO",
+    "num_acceso":"000009",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270544032",
+    "rotulo":"LI SUSHI",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"VISTA ALEGRE",
+    "desc_vial_acceso":"EUGENIA DE MONTIJO",
+    "num_acceso":"000060",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270544737",
+    "rotulo":"SUSHI Y BAR",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"VILORIA DE LA RIOJA",
+    "num_acceso":"000017",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270544382",
+    "rotulo":"YAMA SUSHI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"BURGOS",
+    "num_acceso":"000119",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270546588",
+    "rotulo":"MAKITAKE URBAN SUSHISHOP",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"AZOFRA",
+    "num_acceso":"000031",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270547083",
+    "rotulo":"SUMMUN SUSHITA\/K1",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"GENERAL PERON",
+    "num_acceso":"000040",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270551242",
+    "rotulo":"SUSHI SPA",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"VALDEZARZA",
+    "desc_vial_acceso":"VALLE DE MENA",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270551849",
+    "rotulo":"NOORI SUSHI",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"CASA DE CAMPO",
+    "desc_vial_acceso":"FLORIDA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Baja Reunificación",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270552153",
+    "rotulo":"GAMBRINUS\/SAMARKANDA BISTRO\/SUSHITA",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"COMUNICACION",
+    "num_acceso":"000022",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270554493",
+    "rotulo":"DAICHI",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"ATOCHA",
+    "desc_vial_acceso":"RETAMA",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270554898",
+    "rotulo":"RESTAURANTE 44 SUSHI BAR",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"MARQUES DE VALDEIGLESIAS",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270555639",
+    "rotulo":"SUSHI ARTIST",
+    "desc_distrito_local":"SAN BLAS-CANILLEJAS",
+    "desc_barrio_local":"REJAS",
+    "desc_vial_acceso":"ARACNE",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270557535",
+    "rotulo":"SHERPA SUSHI & POKE",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"PUEBLO NUEVO",
+    "desc_vial_acceso":"ALCALA",
+    "num_acceso":"000412",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270558353",
+    "rotulo":"SUSHI ARTIST",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"GENERAL PERON",
+    "num_acceso":"000040",
+    "desc_situacion_local":"Baja Reunificación",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270558679",
+    "rotulo":"SUSHI DAILY  DENTRO DEL C.C. CARREFOUR",
+    "desc_distrito_local":"VILLA DE VALLECAS",
+    "desc_barrio_local":"ENSANCHE DE VALLECAS",
+    "desc_vial_acceso":"ADOLFO BIOY CASARES",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270558687",
+    "rotulo":"DAILY SUSHI",
+    "desc_distrito_local":"VILLA DE VALLECAS",
+    "desc_barrio_local":"ENSANCHE DE VALLECAS",
+    "desc_vial_acceso":"ADOLFO BIOY CASARES",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270559068",
+    "rotulo":"MINI SUSHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"BELLAS VISTAS",
+    "desc_vial_acceso":"CUATRO CAMINOS",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270559685",
+    "rotulo":"SUMO RESTAURANTE",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"CASTELLANA",
+    "num_acceso":"000089",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270559803",
+    "rotulo":"SUSHI WAWA",
+    "desc_distrito_local":"VILLA DE VALLECAS",
+    "desc_barrio_local":"ENSANCHE DE VALLECAS",
+    "desc_vial_acceso":"ENSANCHE DE VALLECAS",
+    "num_acceso":"000018",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270561184",
+    "rotulo":"SUSHI DAILY",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"CASA DE CAMPO",
+    "desc_vial_acceso":"FLORIDA",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270562795",
+    "rotulo":"MISS SUSHI LAS TABLAS",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"TIERRA DE MELIDE",
+    "num_acceso":"000032",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270563391",
+    "rotulo":"RESTAURANTE (SUSHI FAST CENTO SL)",
+    "desc_distrito_local":"USERA",
+    "desc_barrio_local":"MOSCARDO",
+    "desc_vial_acceso":"ANTONIO LOPEZ",
+    "num_acceso":"000109",
+    "desc_situacion_local":"Baja Reunificación",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270564279",
+    "rotulo":"SUSHIKOI",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"COSTILLARES",
+    "desc_vial_acceso":"SAN LUIS",
+    "num_acceso":"000087",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270565126",
+    "rotulo":"IZUMI SUSHI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"LABAJOS",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270565210",
+    "rotulo":"SUSHITA",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"VELAZQUEZ",
+    "num_acceso":"000068",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270566333",
+    "rotulo":"SUSHI & ROBATA",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"SOL",
+    "desc_vial_acceso":"CARMEN",
+    "num_acceso":"000028",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270566393",
+    "rotulo":"SUSHIRAN",
+    "desc_distrito_local":"RETIRO",
+    "desc_barrio_local":"ESTRELLA",
+    "desc_vial_acceso":"CONDE DE CASAL",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270571130",
+    "rotulo":"SUSHI DAILY",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"PROSPERIDAD",
+    "desc_vial_acceso":"PRINCIPE DE VERGARA",
+    "num_acceso":"000120",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270574046",
+    "rotulo":"SUSHI BURGER",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"BERRUGUETE",
+    "desc_vial_acceso":"ARAUCARIA",
+    "num_acceso":"000019",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270576911",
+    "rotulo":"RESTAURANTE GO! SUSHING",
+    "desc_distrito_local":"VILLAVERDE",
+    "desc_barrio_local":"LOS ANGELES",
+    "desc_vial_acceso":"LA PICARA MOLINERA",
+    "num_acceso":"000016",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270577024",
+    "rotulo":"SUSHI SPOT",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"SOL",
+    "desc_vial_acceso":"MAESTRO VICTORIA",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270578228",
+    "rotulo":"NORESTE SUSHI",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"PINAR DEL REY",
+    "desc_vial_acceso":"AREQUIPA",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270578719",
+    "rotulo":"CAJA MAGICA-SUSHISPOT",
+    "desc_distrito_local":"USERA",
+    "desc_barrio_local":"SAN FERMIN",
+    "desc_vial_acceso":"PERALES",
+    "num_acceso":"000023",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270579258",
+    "rotulo":"SUSHISPOT",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"VALDEFUENTES",
+    "desc_vial_acceso":"MARGARITA DE PARMA",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270580019",
+    "rotulo":"SUSHI",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"PROSPERIDAD",
+    "desc_vial_acceso":"PRINCIPE DE VERGARA",
+    "num_acceso":"000120",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"270583444",
+    "rotulo":"UNAGISUSHIBER (PTO 10)",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"EMBAJADORES",
+    "desc_vial_acceso":"DOCTOR CORTEZO",
+    "num_acceso":"000010",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280000013",
+    "rotulo":"SUSHITA",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"ALCALA",
+    "num_acceso":"000063",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280000152",
+    "rotulo":"99 SUSHI BAR",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"HERMOSILLA",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280001754",
+    "rotulo":"BANCO PICHINCHA",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"LAGASCA",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280002000",
+    "rotulo":"GO SUSHI A DOMICILIO",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"ALCANTARA",
+    "num_acceso":"000023",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280002220",
+    "rotulo":"DIRECCIÓN GENERAL DE COMERCIO Y CONSUMO",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"GENERAL DIAZ PORLIER",
+    "num_acceso":"000035",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280002320",
+    "rotulo":"SUSHI LEMI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"FERNAN GONZALEZ",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280002401",
+    "rotulo":"SUSHI TAIRYO",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"MARTIRES CONCEPCIONISTAS",
+    "num_acceso":"000007",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280002695",
+    "rotulo":"ITHACA, ESCUELA DE REIKI-TAICHI-QI GONG, YOGA-TALLERES-CONFERENCIAS",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"FUENTE DEL BERRO",
+    "desc_vial_acceso":"HERMOSILLA",
+    "num_acceso":"000126",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280003340",
+    "rotulo":"HAWAI POKE SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GUINDALERA",
+    "desc_vial_acceso":"AZCONA",
+    "num_acceso":"000050",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280003578",
+    "rotulo":"SUSHICATESEN",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"LISTA",
+    "desc_vial_acceso":"GENERAL ORAA",
+    "num_acceso":"000074",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280003470",
+    "rotulo":"UNION DE CONSUMIDORES CM UCE (REVISTA) CIUDADANO Y CONSUMO",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GUINDALERA",
+    "desc_vial_acceso":"MEJICO",
+    "num_acceso":"000015",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280003884",
+    "rotulo":"INSRITUTO NACIONAL DE CONSUMO",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"LISTA",
+    "desc_vial_acceso":"PRINCIPE DE VERGARA",
+    "num_acceso":"000054",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280007764",
+    "rotulo":"OI MEI SUSHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"PALACIO",
+    "desc_vial_acceso":"MANCEBOS",
+    "num_acceso":"000019",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280008155",
+    "rotulo":"SUSHI EL SOL",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"EMBAJADORES",
+    "desc_vial_acceso":"JUANELO",
+    "num_acceso":"000010",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280009696",
+    "rotulo":"DAI KICHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"REINA",
+    "num_acceso":"000031",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280009988",
+    "rotulo":"YATAKI SUSHIBAR",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"HORTALEZA",
+    "num_acceso":"000072",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280010011",
+    "rotulo":"STO. GLOBO SUSHI ROOM",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"SANTA TERESA",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280011179",
+    "rotulo":"SUBARU SUSHI EXPRESS",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"UNIVERSIDAD",
+    "desc_vial_acceso":"GRAN VIA",
+    "num_acceso":"000044",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280011861",
+    "rotulo":"TAKAMI SUSHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"SOL",
+    "desc_vial_acceso":"CONCEPCION JERONIMA",
+    "num_acceso":"000028",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280012446",
+    "rotulo":"EUROCONSUMO",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"PALACIO",
+    "desc_vial_acceso":"SANTO DOMINGO",
+    "num_acceso":"000020",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280013424",
+    "rotulo":"ICHIANA",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"CLAVEL",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280018275",
+    "rotulo":"RESTAURANTE OK SUSHI",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"ACACIAS",
+    "desc_vial_acceso":"ESPERANZA",
+    "num_acceso":"000014",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280021680",
+    "rotulo":"BOWOK SUSHI",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"CIUDAD JARDIN",
+    "desc_vial_acceso":"LOPEZ DE HOYOS",
+    "num_acceso":"000091",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280023136",
+    "rotulo":"MAKITAKE URBAN SUSHISHOP",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"CASTILLA",
+    "desc_vial_acceso":"PADRE FRANCISCO PALAU Y QUER",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280023339",
+    "rotulo":"YU SUSHI",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"CIUDAD JARDIN",
+    "desc_vial_acceso":"VINAROZ",
+    "num_acceso":"000012",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280024043",
+    "rotulo":"CAPRICHITO",
+    "desc_distrito_local":"BARAJAS",
+    "desc_barrio_local":"ALAMEDA DE OSUNA",
+    "desc_vial_acceso":"VELERO",
+    "num_acceso":"000019",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280029904",
+    "rotulo":"SABOR SUSHI BAR",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"BELLAS VISTAS",
+    "desc_vial_acceso":"ALVARADO",
+    "num_acceso":"000019",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280030347",
+    "rotulo":"ORTIZ SUSHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"TERUEL",
+    "num_acceso":"000002",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280030439",
+    "rotulo":"ALMATRICHI",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"EDGAR NEVILLE",
+    "num_acceso":"000037",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280031205",
+    "rotulo":"SUSHI HOUSE AND BAR",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CASTILLEJOS",
+    "desc_vial_acceso":"INFANTA MERCEDES",
+    "num_acceso":"000097",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280032429",
+    "rotulo":"ASOCIACIÓN DE TAICHI TAOISTA",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"BERRUGUETE",
+    "desc_vial_acceso":"MARGARITAS",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280034652",
+    "rotulo":"TAICHI HAOQING LIU ESCUELA SUPERIOR DE CHIKUNG",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"ALMAGRO",
+    "desc_vial_acceso":"MODESTO LAFUENTE",
+    "num_acceso":"000010",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280036032",
+    "rotulo":"KIYOTA SUSHI DONBURI  BAR",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"GAZTAMBIDE",
+    "desc_vial_acceso":"DONOSO CORTES",
+    "num_acceso":"000077",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280038344",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"RIOS ROSAS",
+    "desc_vial_acceso":"MODESTO LAFUENTE",
+    "num_acceso":"000056",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280038509",
+    "rotulo":"SUSHI TOKAMI",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"RIOS ROSAS",
+    "desc_vial_acceso":"MODESTO LAFUENTE",
+    "num_acceso":"000088",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280039199",
+    "rotulo":"MONGOLL SUSHI TAKE AWAY",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"ALUCHE",
+    "desc_vial_acceso":"ILLESCAS",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280042827",
+    "rotulo":"CENTRO TAICHI Y CHIKUNG",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"ALUCHE",
+    "desc_vial_acceso":"TEMBLEQUE",
+    "num_acceso":"000136",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280043585",
+    "rotulo":"SUSHI TOMO",
+    "desc_distrito_local":"LATINA",
+    "desc_barrio_local":"LAS AGUILAS",
+    "desc_vial_acceso":"JOSE DE CADALSO",
+    "num_acceso":"000082",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280044083",
+    "rotulo":"SUSHIWAHHA EXPRESS",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"CASA DE CAMPO",
+    "desc_vial_acceso":"FLORIDA",
+    "num_acceso":"000029",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280044910",
+    "rotulo":"ALMATRICHI",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"ARAVACA",
+    "desc_vial_acceso":"OSA MAYOR",
+    "num_acceso":"000085",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280045768",
+    "rotulo":"SUSHITA",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"VALDEMARIN",
+    "desc_vial_acceso":"VALDEMARIN",
+    "num_acceso":"000167",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280045867",
+    "rotulo":"IZUMI SUSHI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"LA PAZ",
+    "desc_vial_acceso":"FERMIN CABALLERO",
+    "num_acceso":"000006",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280047242",
+    "rotulo":"PANADERÍA EL CAPRICHITO",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"EL PILAR",
+    "desc_vial_acceso":"EL FERROL",
+    "num_acceso":"000015",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280047848",
+    "rotulo":"SUSHI RAKKI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"LA PAZ",
+    "desc_vial_acceso":"ANTONIO LOPEZ AGUADO",
+    "num_acceso":"000016",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280048141",
+    "rotulo":"ALMATRICHI",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"MARIA TUBAU",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280048886",
+    "rotulo":"SUSHI ICHIWAKA",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"CASTIELLO DE JACA",
+    "num_acceso":"000012",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280048942",
+    "rotulo":"TAIKO SUSHI BAR",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"EL GOLOSO",
+    "desc_vial_acceso":"MONTECARMELO",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280049824",
+    "rotulo":"SUSHI PARA LLEVAR TAKE AWAY",
+    "desc_distrito_local":"USERA",
+    "desc_barrio_local":"ALMENDRALES",
+    "desc_vial_acceso":"RAMON LUJAN",
+    "num_acceso":"000090",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280053305",
+    "rotulo":"SUGI SUSHI",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"SAN ISIDRO",
+    "desc_vial_acceso":"EMPERATRIZ ISABEL",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280054637",
+    "rotulo":"BANCO PICHINCHA",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"VISTA ALEGRE",
+    "desc_vial_acceso":"OCA",
+    "num_acceso":"000037",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280056016",
+    "rotulo":"KISUSHI OPORTO",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"SAN ISIDRO",
+    "desc_vial_acceso":"PEDRO DIEZ",
+    "num_acceso":"000006",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280056045",
+    "rotulo":"MAS SUSHI",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"BUENAVISTA",
+    "desc_vial_acceso":"SECOYA",
+    "num_acceso":"000003",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280059019",
+    "rotulo":"CHICHIRIVICHE",
+    "desc_distrito_local":"PUENTE DE VALLECAS",
+    "desc_barrio_local":"NUMANCIA",
+    "desc_vial_acceso":"VALDERRIBAS",
+    "num_acceso":"000055",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280059048",
+    "rotulo":"LOCUTORIO SUMON",
+    "desc_distrito_local":"PUENTE DE VALLECAS",
+    "desc_barrio_local":"NUMANCIA",
+    "desc_vial_acceso":"PEÑA PRIETA",
+    "num_acceso":"000044",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280059299",
+    "rotulo":"RESTAURANTE SUSHI LAND. BUFFET LIBRE",
+    "desc_distrito_local":"PUENTE DE VALLECAS",
+    "desc_barrio_local":"PALOMERAS SURESTE",
+    "desc_vial_acceso":"VILLALOBOS",
+    "num_acceso":"000020",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280059979",
+    "rotulo":"MAO JU SUSHI",
+    "desc_distrito_local":"VILLA DE VALLECAS",
+    "desc_barrio_local":"SANTA EUGENIA",
+    "desc_vial_acceso":"PUENTELARRA",
+    "num_acceso":"000011",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280060268",
+    "rotulo":"REN SUSHI BAR",
+    "desc_distrito_local":"VILLA DE VALLECAS",
+    "desc_barrio_local":"CASCO H.VALLECAS",
+    "desc_vial_acceso":"FUENTIDUEÑA",
+    "num_acceso":"000033",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280062180",
+    "rotulo":"KAPRICHITOS LATINOS Y MAS",
+    "desc_distrito_local":"VILLAVERDE",
+    "desc_barrio_local":"SAN CRISTOBAL",
+    "desc_vial_acceso":"PINAZO",
+    "num_acceso":"000020",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280062282",
+    "rotulo":"TALLER DE REPARACION DE DIVERSOS BIENES DE CONSUMO TALES COMO: ROPA, J",
+    "desc_distrito_local":"VILLAVERDE",
+    "desc_barrio_local":"LOS ROSALES",
+    "desc_vial_acceso":"SAHARA",
+    "num_acceso":"000050",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280062671",
+    "rotulo":"GASTROBAR ICHIZU",
+    "desc_distrito_local":"VILLAVERDE",
+    "desc_barrio_local":"SAN ANDRES",
+    "desc_vial_acceso":"EDUARDO BARREIROS",
+    "num_acceso":"000149",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280063616",
+    "rotulo":"TALLERES MICHIGAN 2 SL",
+    "desc_distrito_local":"VILLAVERDE",
+    "desc_barrio_local":"SAN ANDRES",
+    "desc_vial_acceso":"LAGUNA DALGA",
+    "num_acceso":"000032",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280064002",
+    "rotulo":"SARALATMA ESCUELA DE TAICHI Y YOGA",
+    "desc_distrito_local":"MORATALAZ",
+    "desc_barrio_local":"MARROQUINA",
+    "desc_vial_acceso":"MOLINA DE SEGURA",
+    "num_acceso":"000005",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280066888",
+    "rotulo":"MEOW SUSHI",
+    "desc_distrito_local":"SAN BLAS-CANILLEJAS",
+    "desc_barrio_local":"ROSAS",
+    "desc_vial_acceso":"SOFIA",
+    "num_acceso":"000048",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280070251",
+    "rotulo":"GO SUSHING SUSHI A DOMICILIO",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"PALOMAS",
+    "desc_vial_acceso":"ANDES",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280070252",
+    "rotulo":"MISS SUSHI",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"PALOMAS",
+    "desc_vial_acceso":"ANDES",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280070300",
+    "rotulo":"JAPONESA KICHI",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"PIOVERA",
+    "desc_vial_acceso":"ULISES",
+    "num_acceso":"000026",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280070874",
+    "rotulo":"ISUSHI",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"PINAR DEL REY",
+    "desc_vial_acceso":"AREQUIPA",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280072226",
+    "rotulo":"RESTAURANTE DON SUSHI",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"QUINTANA",
+    "desc_vial_acceso":"GENERAL ARANAZ",
+    "num_acceso":"000011",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280072678",
+    "rotulo":"RESTAURANTE SUSHI",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"CONCEPCION",
+    "desc_vial_acceso":"ALCALDE LOPEZ CASERO",
+    "num_acceso":"000013",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"280074429",
+    "rotulo":"SUSHI KOI",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"SAN JUAN BAUTISTA",
+    "desc_vial_acceso":"ARTURO SORIA",
+    "num_acceso":"000126",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285000180",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"AYALA",
+    "num_acceso":"000087",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285000317",
+    "rotulo":"KIN- SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"DUQUE DE SESTO",
+    "num_acceso":"000046",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285001095",
+    "rotulo":"SUSHI SHOO",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"CASTELLANA",
+    "desc_vial_acceso":"LOPEZ DE HOYOS",
+    "num_acceso":"000009",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285001884",
+    "rotulo":"ESTUDIO TAICHI",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"EMBAJADORES",
+    "desc_vial_acceso":"MIRA EL RIO BAJA",
+    "num_acceso":"000013",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285002911",
+    "rotulo":"SUMO FUSION",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"CORTES",
+    "desc_vial_acceso":"GRAN VIA",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285003000",
+    "rotulo":"SUSHIWAKKA EXPRESS",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"HORTALEZA",
+    "num_acceso":"000024",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285003156",
+    "rotulo":"CONNICHIWA",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"FUENCARRAL",
+    "num_acceso":"000098",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285004210",
+    "rotulo":"SUSHI TOKYO",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"JUSTICIA",
+    "desc_vial_acceso":"INFANTAS",
+    "num_acceso":"000006",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285004848",
+    "rotulo":"SUSHI HE ZHOU",
+    "desc_distrito_local":"ARGANZUELA",
+    "desc_barrio_local":"LEGAZPI",
+    "desc_vial_acceso":"BOLIVAR",
+    "num_acceso":"000012",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285007086",
+    "rotulo":"SUSHIMAIN",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"CIUDAD JARDIN",
+    "desc_vial_acceso":"MATILDE DIEZ",
+    "num_acceso":"000016",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285007322",
+    "rotulo":"ICHIBAN",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"HISPANOAMERICA",
+    "desc_vial_acceso":"ALBERTO ALCOCER",
+    "num_acceso":"000022",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285008865",
+    "rotulo":"SUSHI UNO",
+    "desc_distrito_local":"TETUAN",
+    "desc_barrio_local":"CUATRO CAMINOS",
+    "desc_vial_acceso":"LERIDA",
+    "num_acceso":"000058",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285011723",
+    "rotulo":"SUSHI MIX",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"ARAPILES",
+    "desc_vial_acceso":"GALILEO",
+    "num_acceso":"000036",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285012144",
+    "rotulo":"SUSHI SHOP",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"ALMAGRO",
+    "desc_vial_acceso":"GENOVA",
+    "num_acceso":"000023",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285012367",
+    "rotulo":"OKINAWA SUSHI",
+    "desc_distrito_local":"CHAMBERI",
+    "desc_barrio_local":"RIOS ROSAS",
+    "desc_vial_acceso":"PONZANO",
+    "num_acceso":"000054",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285012858",
+    "rotulo":"SUSHIBAR",
+    "desc_distrito_local":"BARAJAS",
+    "desc_barrio_local":"CASCO H.BARAJAS",
+    "desc_vial_acceso":"JUPITER",
+    "num_acceso":"000014",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285013493",
+    "rotulo":"TAICHI CHIKUNG MEDITACION TUISHOU",
+    "desc_distrito_local":"MONCLOA-ARAVACA",
+    "desc_barrio_local":"ARGUELLES",
+    "desc_vial_acceso":"TUTOR",
+    "num_acceso":"000031",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285014440",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"PEÑA GRANDE",
+    "desc_vial_acceso":"FERMIN CABALLERO",
+    "num_acceso":"000076",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285016547",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"VALVERDE",
+    "desc_vial_acceso":"SIERRA DE ATAPUERCA",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285016691",
+    "rotulo":"GO SUSHING",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"EL GOLOSO",
+    "desc_vial_acceso":"MONASTERIO DE SILOS",
+    "num_acceso":"000011",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285016724",
+    "rotulo":"TAIKO SUSHI BAR",
+    "desc_distrito_local":"FUENCARRAL-EL PARDO",
+    "desc_barrio_local":"EL GOLOSO",
+    "desc_vial_acceso":"MONTECARMELO",
+    "num_acceso":"000008",
+    "desc_situacion_local":"Baja Reunificación",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285025225",
+    "rotulo":"LI SUSHI",
+    "desc_distrito_local":"CARABANCHEL",
+    "desc_barrio_local":"VISTA ALEGRE",
+    "desc_vial_acceso":"NUESTRA SEÑORA DE FATIMA",
+    "num_acceso":"000094",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285028056",
+    "rotulo":"MIFRESHSUSHI",
+    "desc_distrito_local":"MORATALAZ",
+    "desc_barrio_local":"MARROQUINA",
+    "desc_vial_acceso":"MORATALAZ",
+    "num_acceso":"000135",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285032819",
+    "rotulo":"GO! SUSHIG",
+    "desc_distrito_local":"VILLA DE VALLECAS",
+    "desc_barrio_local":"ENSANCHE DE VALLECAS",
+    "desc_vial_acceso":"JOSE GUTIERREZ MAROTO",
+    "num_acceso":"000022",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285040587",
+    "rotulo":"TAKE-OUT SUSHI-FUSHION",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"VALDEFUENTES",
+    "desc_vial_acceso":"OÑA",
+    "num_acceso":"000045",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285040997",
+    "rotulo":"PAPICHICKEN",
+    "desc_distrito_local":"HORTALEZA",
+    "desc_barrio_local":"CANILLAS",
+    "desc_vial_acceso":"MOTA DEL CUERVO",
+    "num_acceso":"000017",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285042923",
+    "rotulo":"HOKKAIDO SUSHI",
+    "desc_distrito_local":"SAN BLAS-CANILLEJAS",
+    "desc_barrio_local":"REJAS",
+    "desc_vial_acceso":"ARCAUTE",
+    "num_acceso":"000023",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285042796",
+    "rotulo":"RESTAURANTE ICHIDANYA",
+    "desc_distrito_local":"SAN BLAS-CANILLEJAS",
+    "desc_barrio_local":"SIMANCAS",
+    "desc_vial_acceso":"CRONOS",
+    "num_acceso":"000006",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"285047349",
+    "rotulo":"COMIDA PREPARADA SIN CONSUMO EN EL LOCAL-LOCUTORIO",
+    "desc_distrito_local":"CIUDAD LINEAL",
+    "desc_barrio_local":"QUINTANA",
+    "desc_vial_acceso":"BOLDANO",
+    "num_acceso":"000046",
+    "desc_situacion_local":"Cerrado",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"300002637",
+    "rotulo":"GESTORÍA UNICHIN",
+    "desc_distrito_local":"CENTRO",
+    "desc_barrio_local":"UNIVERSIDAD",
+    "desc_vial_acceso":"MOSTENSES",
+    "num_acceso":"000001",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"300005194",
+    "rotulo":"SUSHI DE MAKSIM",
+    "desc_distrito_local":"RETIRO",
+    "desc_barrio_local":"ADELFAS",
+    "desc_vial_acceso":"BARRILERO",
+    "num_acceso":"000016",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"300005973",
+    "rotulo":"GRUPO AGROINSUMOS IB",
+    "desc_distrito_local":"CHAMARTIN",
+    "desc_barrio_local":"EL VISO",
+    "desc_vial_acceso":"NUÑEZ DE BALBOA",
+    "num_acceso":"000120",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"300015343",
+    "rotulo":"BANCO PICHINCHA SA",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"LAGASCA",
+    "num_acceso":"000004",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"300015604",
+    "rotulo":"UNICHINA GA",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"RECOLETOS",
+    "desc_vial_acceso":"GOYA",
+    "num_acceso":"000021",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  },
+  {
+    "id_local":"300016207",
+    "rotulo":"GO SUSHI",
+    "desc_distrito_local":"SALAMANCA",
+    "desc_barrio_local":"GOYA",
+    "desc_vial_acceso":"GENERAL DIAZ PORLIER",
+    "num_acceso":"000021",
+    "desc_situacion_local":"Abierto",
+    "fx_carga":"11\/09\/2026"
+  }
+]

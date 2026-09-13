@@ -1,0 +1,4 @@
+# Snapshots voluminosos y documentos de terceros: conservar localmente.
+*.csv
+*.pdf
+*.png

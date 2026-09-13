@@ -1,0 +1,67 @@
+{
+  "fecha": "2026-09-13",
+  "advertencia": "TODOS los parámetros comerciales son supuestos ilustrativos sin calibrar, no datos observados de una apertura. IVA de restauración: referencia AEAT; no modela liquidaciones fiscales.",
+  "definiciones": {
+    "ticket_bruto": "Consumo medio total por cliente incluyendo bebidas e IVA; no precio del buffet solo.",
+    "ratio_alimentos": "Coste de comida y bebida, incluidas mermas, dividido por ingresos netos.",
+    "variable_extra": "Consumibles, cobros y otros variables por cliente, sin duplicar alimentos.",
+    "personal_coste_empresa": "Coste total empresa, incluidas cargas y remuneración del promotor si trabaja; sin plantilla validada.",
+    "rotaciones": "Clientes por asiento y servicio a plena ocupación.",
+    "fijos": "Costes mensuales netos de IVA recuperable; otros_fijos debe cubrir seguros, gestoría, limpieza fija y mantenimiento.",
+    "resultado": "Antes de amortización, financiación e impuesto sobre beneficio; no flujo de caja ni beneficio neto."
+  },
+  "fuente_iva": "https://sede.agenciatributaria.gob.es/Sede/ayuda/25manual/IVA.html",
+  "escenarios": {
+    "tension": {
+      "ticket_bruto": 22,
+      "iva": 0.1,
+      "ratio_alimentos": 0.46,
+      "variable_extra": 1,
+      "dias": 26,
+      "asientos": 60,
+      "servicios": 2,
+      "rotaciones": 1,
+      "ocupacion": 0.4,
+      "fijos": {
+        "alquiler": 3000,
+        "personal_coste_empresa": 15000,
+        "suministros_fijos": 1500,
+        "otros_fijos": 1500
+      }
+    },
+    "referencia": {
+      "ticket_bruto": 26,
+      "iva": 0.1,
+      "ratio_alimentos": 0.38,
+      "variable_extra": 1,
+      "dias": 26,
+      "asientos": 60,
+      "servicios": 2,
+      "rotaciones": 1,
+      "ocupacion": 0.6,
+      "fijos": {
+        "alquiler": 3000,
+        "personal_coste_empresa": 15000,
+        "suministros_fijos": 1500,
+        "otros_fijos": 1500
+      }
+    },
+    "favorable": {
+      "ticket_bruto": 30,
+      "iva": 0.1,
+      "ratio_alimentos": 0.3,
+      "variable_extra": 1,
+      "dias": 26,
+      "asientos": 60,
+      "servicios": 2,
+      "rotaciones": 1,
+      "ocupacion": 0.75,
+      "fijos": {
+        "alquiler": 3000,
+        "personal_coste_empresa": 15000,
+        "suministros_fijos": 1500,
+        "otros_fijos": 1500
+      }
+    }
+  }
+}

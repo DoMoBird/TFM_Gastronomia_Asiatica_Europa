@@ -1,0 +1,39 @@
+{
+  "consulta": "2026-09-12",
+  "url": "https://datos.madrid.es/dataset/200085-0-censo-locales/resource/200085-1-censo-locales/download/200085_20260731_053218.csv",
+  "sha256": "5eeaebe8212dd6df6297eabf40816ef71f918947df2bb9cdd702d81c1389ddfc",
+  "filas": 203637,
+  "ids_unicos": 203637,
+  "fx_carga": {
+    "11/09/2026": 203637
+  },
+  "candidatos_palabras": 246,
+  "estados_candidatos": {
+    "Abierto": 220,
+    "Cerrado": 20,
+    "Baja Reunificación": 6
+  },
+  "distritos_candidatos": {
+    "SALAMANCA": 34,
+    "CENTRO": 29,
+    "FUENCARRAL-EL PARDO": 20,
+    "TETUAN": 19,
+    "CHAMBERI": 16,
+    "CHAMARTIN": 14,
+    "MONCLOA-ARAVACA": 14,
+    "CIUDAD LINEAL": 13,
+    "HORTALEZA": 13,
+    "ARGANZUELA": 10,
+    "CARABANCHEL": 10,
+    "LATINA": 8,
+    "RETIRO": 7,
+    "SAN BLAS-CANILLEJAS": 7,
+    "VILLA DE VALLECAS": 7,
+    "VILLAVERDE": 6,
+    "BARAJAS": 5,
+    "MORATALAZ": 5,
+    "USERA": 4,
+    "PUENTE DE VALLECAS": 4,
+    "VICALVARO": 1
+  }
+}

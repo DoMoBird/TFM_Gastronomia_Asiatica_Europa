@@ -1,0 +1,6 @@
+# Generated documents and trained models must retain their original bytes.
+*.pdf binary
+*.pptx binary
+*.joblib binary
+*.png binary
+*.zip binary

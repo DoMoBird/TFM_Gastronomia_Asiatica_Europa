@@ -1,0 +1,159 @@
+{
+  "fuente": "https://www.ine.es/servergis/rest/services/ws/ADRH_2023_Renta_media_por_hogar/MapServer/2/query",
+  "consulta": {
+    "f": "json",
+    "where": "CUMUN = '28079'",
+    "outFields": "*",
+    "returnGeometry": "false"
+  },
+  "fecha_consulta": "2026-09-12",
+  "datos": [
+    {
+      "codigo_ine": "2807901",
+      "distrito": "CENTRO",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 22072.78,
+      "renta_neta_anual_hogar_eur": 44958
+    },
+    {
+      "codigo_ine": "2807902",
+      "distrito": "ARGANZUELA",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 22728.33,
+      "renta_neta_anual_hogar_eur": 52857.48
+    },
+    {
+      "codigo_ine": "2807903",
+      "distrito": "RETIRO",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 26905.44,
+      "renta_neta_anual_hogar_eur": 64786.81
+    },
+    {
+      "codigo_ine": "2807904",
+      "distrito": "SALAMANCA",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 29686.76,
+      "renta_neta_anual_hogar_eur": 69146.64
+    },
+    {
+      "codigo_ine": "2807905",
+      "distrito": "CHAMARTIN",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 32019.21,
+      "renta_neta_anual_hogar_eur": 79274.17
+    },
+    {
+      "codigo_ine": "2807906",
+      "distrito": "TETUAN",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 19191.8,
+      "renta_neta_anual_hogar_eur": 45761.73
+    },
+    {
+      "codigo_ine": "2807907",
+      "distrito": "CHAMBERI",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 29125.51,
+      "renta_neta_anual_hogar_eur": 65174
+    },
+    {
+      "codigo_ine": "2807908",
+      "distrito": "FUENCARRAL-EL PARDO",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 23337.85,
+      "renta_neta_anual_hogar_eur": 62384.87
+    },
+    {
+      "codigo_ine": "2807909",
+      "distrito": "MONCLOA-ARAVACA",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 27768.35,
+      "renta_neta_anual_hogar_eur": 71710.88
+    },
+    {
+      "codigo_ine": "2807910",
+      "distrito": "LATINA",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 15088.66,
+      "renta_neta_anual_hogar_eur": 38077.55
+    },
+    {
+      "codigo_ine": "2807911",
+      "distrito": "CARABANCHEL",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 13449.09,
+      "renta_neta_anual_hogar_eur": 36349.57
+    },
+    {
+      "codigo_ine": "2807912",
+      "distrito": "USERA",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 12115.76,
+      "renta_neta_anual_hogar_eur": 34651.21
+    },
+    {
+      "codigo_ine": "2807913",
+      "distrito": "PUENTE DE VALLECAS",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 12055.82,
+      "renta_neta_anual_hogar_eur": 32666.14
+    },
+    {
+      "codigo_ine": "2807914",
+      "distrito": "MORATALAZ",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 17272.44,
+      "renta_neta_anual_hogar_eur": 42823.01
+    },
+    {
+      "codigo_ine": "2807915",
+      "distrito": "CIUDAD LINEAL",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 18789.97,
+      "renta_neta_anual_hogar_eur": 46937.24
+    },
+    {
+      "codigo_ine": "2807916",
+      "distrito": "HORTALEZA",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 23073.72,
+      "renta_neta_anual_hogar_eur": 61471.71
+    },
+    {
+      "codigo_ine": "2807917",
+      "distrito": "VILLAVERDE",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 12129.82,
+      "renta_neta_anual_hogar_eur": 35011.39
+    },
+    {
+      "codigo_ine": "2807918",
+      "distrito": "VILLA DE VALLECAS",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 15176.77,
+      "renta_neta_anual_hogar_eur": 39836.08
+    },
+    {
+      "codigo_ine": "2807919",
+      "distrito": "VICALVARO",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 15870.93,
+      "renta_neta_anual_hogar_eur": 42869.54
+    },
+    {
+      "codigo_ine": "2807920",
+      "distrito": "SAN BLAS-CANILLEJAS",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 16769.49,
+      "renta_neta_anual_hogar_eur": 44468
+    },
+    {
+      "codigo_ine": "2807921",
+      "distrito": "BARAJAS",
+      "anio_renta": 2023,
+      "renta_neta_anual_persona_eur": 22220.26,
+      "renta_neta_anual_hogar_eur": 58405.49
+    }
+  ]
+}

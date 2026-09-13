@@ -1,0 +1,15 @@
+{
+  "fuente": "https://datos.madrid.es/dataset/200076-0-padron/resource/200076-2-padron-csv/download/200076_20260714_062859.csv",
+  "fecha_datos": [
+    "2026-08-01"
+  ],
+  "fecha_carga": [
+    "2026-08-18 09:55:36.465010"
+  ],
+  "sha256": "35e33a0a45878fa20d52196b6d5969c19be3db32cfae7373d1b08e6a7b98c141",
+  "filas": 241260,
+  "poblacion": 3520470,
+  "distritos": 21,
+  "barrios": 131,
+  "nota": "La sección y edad no son clave única sin barrio; no eliminar esas coincidencias."
+}
