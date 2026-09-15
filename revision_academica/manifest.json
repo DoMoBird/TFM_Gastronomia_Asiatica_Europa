@@ -1,7 +1,7 @@
 {
   "ENTREGA_TUTORES.md": {
     "bytes": 2706,
-    "sha256": "1785bb8bdfa029910439c1405c83185e1cd1870d6414b925a51e791b950bfc45"
+    "sha256": "4368fbfc0e859a85bb1fe2abc672b7e61ec54a222024899c7ed2f4fdd230ea58"
   },
   "Peng_Chen_Enlaces_TFM.txt": {
     "bytes": 983,
@@ -9,7 +9,7 @@
   },
   "README.md": {
     "bytes": 1260,
-    "sha256": "1a49a94bd3552d2987adac086b8ef304d0dcee193949568c00833dcb86393efa"
+    "sha256": "a20f42a4035d0bda142bb0337f04c664170fd31021ca52414363a8a35275126b"
   },
   "REPRODUCIBILIDAD.md": {
     "bytes": 1204,
@@ -112,8 +112,8 @@
     "sha256": "577b4194f99e6642a903c0436bd14abd572e2bc0379caec7900c8cb1431c8d28"
   },
   "revision_academica/.gitignore": {
-    "bytes": 286,
-    "sha256": "04952a4de3e58aaf67eafdb12aa86f3c9c7040184af90b3f934c91791cb1a595"
+    "bytes": 344,
+    "sha256": "56acb51eb77d9e692dea74c4e01ad625616bc5579e7ea9b0a67ea163c0f4899a"
   },
   "revision_academica/ALINEACION_REQUISITOS.md": {
     "bytes": 3209,
@@ -124,8 +124,16 @@
     "sha256": "22a2f4e2a261efa7cdcb912953c70987e97267b290965dca33fded1c3a415e61"
   },
   "revision_academica/README.md": {
-    "bytes": 5651,
-    "sha256": "2e420a740d030110a513380d90df990cd83a0a0bed73f54e2802dc6ca5d0c83e"
+    "bytes": 6057,
+    "sha256": "a1c3a1313f97182595f4a9406b3c65d2c198595f3f5761f008f84a952d45726a"
+  },
+  "revision_academica/assets/README.md": {
+    "bytes": 414,
+    "sha256": "dff8b5227c7165f1b0b06bf9f2ce0b4eb15a342d7dd688f10c9eac6c4a10f441"
+  },
+  "revision_academica/assets/app_ejemplo_recorte.png": {
+    "bytes": 67649,
+    "sha256": "4c65e48858fcabb4ef1dd84c27f54bbf56cd4b9343cd263d8560a0dbef7909f0"
   },
   "revision_academica/entrega/anexo_modelizacion.html": {
     "bytes": 482284,
@@ -150,6 +158,10 @@
   "revision_academica/entrega/presentacion_revisada_v2.pptx": {
     "bytes": 47788,
     "sha256": "e8409323afdfcf34abbf41814cc055e33e59d4656b58f9706d3718b54f37948f"
+  },
+  "revision_academica/entrega/presentacion_revisada_v4.pptx": {
+    "bytes": 122988,
+    "sha256": "761b11c81bcd4e4f363a533cbddaee7452bb31c4414a23c1cff5ac228bbef665"
   },
   "revision_academica/requirements_revision.txt": {
     "bytes": 130,
@@ -213,7 +225,7 @@
   },
   "revision_academica/src/empaquetar.py": {
     "bytes": 1935,
-    "sha256": "cbc8a5b3fc078de96c7c04e7aff2e953266946d637b7337a71e7b097279fe4d9"
+    "sha256": "a3d197724e0fbba0879f4d64dfff2d34d085c4c7cfe7411579cb8329ac3e9a34"
   },
   "revision_academica/src/entrenar.py": {
     "bytes": 9240,
@@ -238,6 +250,14 @@
   "revision_academica/src/presentacion.mjs": {
     "bytes": 12947,
     "sha256": "fd6255c68d7f845fdab3eba651cf1d4ec1023560038926160fb03d2c3f0fcfff"
+  },
+  "revision_academica/src/restaurar_libros_graficos.py": {
+    "bytes": 1984,
+    "sha256": "e9c38d5d69af16aec8cf10aa903762877000f3debe8f4f0f0e440a5fffbf60fd"
+  },
+  "revision_academica/src/revisar_presentacion_v3.mjs": {
+    "bytes": 8887,
+    "sha256": "2132cc44df8a01198451e01dfeada0bd625fb32f483423db81ffbb777433ca98"
   },
   "revision_academica/src/servir.py": {
     "bytes": 5839,

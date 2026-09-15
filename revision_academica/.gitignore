@@ -13,3 +13,6 @@ entrega/presentacion_revisada.pptx
 # Guiones personales de grabación
 entrega/guion*.md
 resultados/guion_slides.json
+
+# Enlace local al runtime de presentaciones
+node_modules

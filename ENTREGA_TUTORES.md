@@ -8,7 +8,7 @@ Material académico y técnico disponible. **Falta el vídeo obligatorio**: no s
 
 1. [Memoria PDF](revision_academica/entrega/memoria_revisada.pdf).
 2. [Anexo de modelización ejecutado](revision_academica/entrega/anexo_modelizacion.html) y [notebook](revision_academica/entrega/anexo_modelizacion.ipynb). Descargar el HTML para visualizarlo localmente.
-3. [Presentación](revision_academica/entrega/presentacion_revisada_v2.pptx).
+3. [Presentación](revision_academica/entrega/presentacion_revisada_v4.pptx).
 4. [Modelos y evaluación](revision_academica/resultados/) y [código](revision_academica/src/).
 5. [Derechos de datos](revision_academica/DERECHOS_DATOS.md), [reproducibilidad](REPRODUCIBILIDAD.md) e [investigación complementaria de Madrid](investigacion_madrid/README.md).
 
