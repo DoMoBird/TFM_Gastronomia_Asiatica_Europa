@@ -5,7 +5,7 @@ Esta es la versión de trabajo alineada con la propuesta aprobada: **EDA europeo
 ## Lectura
 
 - `entrega/memoria_revisada.pdf`: portada e índice propios, cuerpo de 10 páginas; párrafos justificados.
-- `entrega/presentacion_revisada_v2.pptx` y `entrega/guion_revisado.md`: presentación y voz en off coherentes con el nuevo experimento.
+- `entrega/presentacion_revisada_v2.pptx`: presentación vigente. Los guiones de grabación son material personal local y no se distribuyen.
 - `ALINEACION_REQUISITOS.md`: propuesta, guía y correo docente cotejados.
 - `DERECHOS_DATOS.md`: evidencia de uso y privacidad.
 - `entrega/anexo_modelizacion.ipynb` y `.html`: resultados ejecutados y ruta para reentrenar.
@@ -23,7 +23,7 @@ python revision_academica/src/verificar.py
 python revision_academica/src/servir.py --port 8765
 ```
 
-Abrir `http://127.0.0.1:8765`, cargar el ejemplo y estimar. Si el puerto está ocupado, elegir otro con `--port`. El servidor no se expone a la red.
+Abrir `http://127.0.0.1:8765`, cargar el ejemplo y estimar. Mantener abierto el proceso del servidor mientras se utiliza la aplicación. Abrir directamente `src/interfaz.html` con `file://` no ejecuta el modelo; la página muestra instrucciones para acceder al servicio local. Si el puerto está ocupado, elegir otro con `--port`. El servidor no se expone a la red.
 
 Entrada de entrenamiento: `data/asian_restaurants_europe.csv`, cuyo SHA-256 se conserva en `resultados/evaluacion.json`. Se obtiene ejecutando el notebook original `notebooks/01_carga_exploracion.ipynb` sobre el fichero descargado de Kaggle. La revisión no necesita el CSV preprocesado antiguo. Los datos crudos no están en el paquete revisado; conservar la estructura TFM/data y TFM/revision_academica al reproducir.
 

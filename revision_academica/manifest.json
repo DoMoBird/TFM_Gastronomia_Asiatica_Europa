@@ -1,7 +1,27 @@
 {
+  "ENTREGA_TUTORES.md": {
+    "bytes": 2706,
+    "sha256": "1785bb8bdfa029910439c1405c83185e1cd1870d6414b925a51e791b950bfc45"
+  },
+  "Peng_Chen_Enlaces_TFM.txt": {
+    "bytes": 983,
+    "sha256": "34b7ee8c09df6ef832f803254b065300dd479d4a9bd3f5a6044588b12390dc12"
+  },
   "README.md": {
-    "bytes": 1201,
-    "sha256": "a512f3d17ad8450d38f029f2b0769e0971fa8300a0598fd7ca23218e1d3b7295"
+    "bytes": 1260,
+    "sha256": "1a49a94bd3552d2987adac086b8ef304d0dcee193949568c00833dcb86393efa"
+  },
+  "REPRODUCIBILIDAD.md": {
+    "bytes": 1204,
+    "sha256": "9b35e4014c45308b8dd803db0d520fa27e61de591e51221544ee5e4495a503ff"
+  },
+  "archivo_historico/README.md": {
+    "bytes": 1015,
+    "sha256": "7afa765c58cd3033bef3026361994dc99fe9e52855ca74e4e3b35fff2bfa1121"
+  },
+  "data/README.md": {
+    "bytes": 1133,
+    "sha256": "fad6cb3829ed57948ca77a0f2ed68579ffcd9896a1c839f2bb96211e2ccdfaaf"
   },
   "investigacion_madrid/05_viabilidad_madrid.ipynb": {
     "bytes": 88782,
@@ -42,6 +62,10 @@
   "investigacion_madrid/analizar_renta.py": {
     "bytes": 1406,
     "sha256": "b201126e1dcce0b9a6fa3828b5c4122f88a829a281c0194b147898e48f33a6d8"
+  },
+  "investigacion_madrid/candidatos_censo.json": {
+    "bytes": 69183,
+    "sha256": "8d670cd8719c807fb2f9e0cfa490b0ebcdb784e9e28ca3199a93792db12025c5"
   },
   "investigacion_madrid/control_censo.json": {
     "bytes": 958,
@@ -87,13 +111,9 @@
     "bytes": 40363,
     "sha256": "577b4194f99e6642a903c0436bd14abd572e2bc0379caec7900c8cb1431c8d28"
   },
-  "revision_academica/.DS_Store": {
-    "bytes": 6148,
-    "sha256": "f106efd069fc8b68e1a1877d470790f92db2bdff3decfcc009c68a4779ec773e"
-  },
   "revision_academica/.gitignore": {
-    "bytes": 124,
-    "sha256": "75ece218b9dfb0d81f25bbe78349a57bb0e032a14443a50e0bb4bd7ce463d019"
+    "bytes": 286,
+    "sha256": "04952a4de3e58aaf67eafdb12aa86f3c9c7040184af90b3f934c91791cb1a595"
   },
   "revision_academica/ALINEACION_REQUISITOS.md": {
     "bytes": 3209,
@@ -104,8 +124,8 @@
     "sha256": "22a2f4e2a261efa7cdcb912953c70987e97267b290965dca33fded1c3a415e61"
   },
   "revision_academica/README.md": {
-    "bytes": 5430,
-    "sha256": "8c990613354ab86b61237e603b8047e075b4f001f6638259fa63ab53abdeeb2e"
+    "bytes": 5651,
+    "sha256": "2e420a740d030110a513380d90df990cd83a0a0bed73f54e2802dc6ca5d0c83e"
   },
   "revision_academica/entrega/anexo_modelizacion.html": {
     "bytes": 482284,
@@ -114,10 +134,6 @@
   "revision_academica/entrega/anexo_modelizacion.ipynb": {
     "bytes": 139068,
     "sha256": "42433343a83822fe75b32507ee7b930db08aa19ca510bd01c2cc3bff774ef949"
-  },
-  "revision_academica/entrega/guion_revisado.md": {
-    "bytes": 4888,
-    "sha256": "71fd147d01a170ef1eb9f8e1a0174d2c31648ca35e8b86b84b0bf0c109885da6"
   },
   "revision_academica/entrega/indice_anexos.md": {
     "bytes": 1028,
@@ -159,10 +175,6 @@
     "bytes": 21153,
     "sha256": "9089be73990c5d775cc06e39e27dd09747e74861408216ebd8c06c24a5e6b556"
   },
-  "revision_academica/resultados/guion_slides.json": {
-    "bytes": 4833,
-    "sha256": "0285b3d20ff7d65702c8c3545977a5661e834967a6fd338e8c1a52b82a6723fb"
-  },
   "revision_academica/resultados/interpretacion.png": {
     "bytes": 59901,
     "sha256": "dbbfda513523fb8771f2d0043ad7abab5c756c32c36e114ff52837084cec9086"
@@ -200,8 +212,8 @@
     "sha256": "64d3cc6775c789fa3b5fe0d7a5ce7dff32766cfd6e680f4586994aca8d6fe39f"
   },
   "revision_academica/src/empaquetar.py": {
-    "bytes": 1796,
-    "sha256": "6cacd0f136670a5d389696d849a22f65644db0b97cfd7b646e9c453b3a5fa7af"
+    "bytes": 1935,
+    "sha256": "cbc8a5b3fc078de96c7c04e7aff2e953266946d637b7337a71e7b097279fe4d9"
   },
   "revision_academica/src/entrenar.py": {
     "bytes": 9240,
@@ -212,8 +224,8 @@
     "sha256": "4a7b7180bf328a1f38b79182b4d1dab26dfa60031efef82524034ae489dfe9b5"
   },
   "revision_academica/src/interfaz.html": {
-    "bytes": 4169,
-    "sha256": "f136d37c04c03fecb2a2d1d1ea0d566ef79b4a4bb7ad593483b894e5eb700d41"
+    "bytes": 5508,
+    "sha256": "ef15f2a0a9662bae0dd2de34821b231943dc5cae9cb8d736bec5ed4132589fe3"
   },
   "revision_academica/src/memoria.py": {
     "bytes": 26020,

@@ -4,19 +4,20 @@ import hashlib,json
 from zipfile import ZipFile,ZIP_DEFLATED
 B=Path(__file__).resolve().parents[1]
 T=B.parent
-required=['memoria_revisada.pdf','presentacion_revisada_v2.pptx','guion_revisado.md','anexo_modelizacion.ipynb','anexo_modelizacion.html']
+required=['memoria_revisada.pdf','presentacion_revisada_v2.pptx','anexo_modelizacion.ipynb','anexo_modelizacion.html']
 assert all((B/'entrega'/name).is_file() for name in required)
 files=[]
 for p in B.rglob('*'):
-    if not p.is_file() or p.is_symlink():continue
+    if not p.is_file() or p.is_symlink() or p.name=='.DS_Store':continue
     rel=p.relative_to(B)
     if any(x in rel.parts for x in ('build','__pycache__','node_modules')):continue
     if any(x.startswith('.chart-data-') or x=='.codex-finalizer' for x in rel.parts):continue
+    if p.name.startswith('guion'):continue
     if p.suffix=='.zip' or p.name in ('manifest.json','presentacion_revisada.pptx'):continue
     files.append(p)
 for p in (T/'investigacion_madrid').glob('*'):
-    if p.is_file() and p.suffix in ('.md','.py','.json','.ipynb','.png') and p.name!='candidatos_censo.json':files.append(p)
-files.extend([T/'investigacion_madrid/fuentes/renta_ine_2023_distritos.json',T/'notebooks/01_carga_exploracion.ipynb',T/'README.md'])
+    if p.is_file() and p.suffix in ('.md','.py','.json','.ipynb','.png') :files.append(p)
+files.extend([T/'investigacion_madrid/fuentes/renta_ine_2023_distritos.json',T/'notebooks/01_carga_exploracion.ipynb',T/'README.md',T/'REPRODUCIBILIDAD.md',T/'data/README.md',T/'archivo_historico/README.md',T/'ENTREGA_TUTORES.md',T/'Peng_Chen_Enlaces_TFM.txt'])
 manifest={str(p.relative_to(T)):{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(files)}
 (B/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 files.append(B/'manifest.json')

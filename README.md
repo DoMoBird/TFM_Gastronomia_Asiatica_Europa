@@ -1,10 +1,11 @@
 # TFM — Peng Chen
 
+[Acceso para tutores y descarga del paquete](ENTREGA_TUTORES.md). **Vídeo obligatorio pendiente de incorporar.**
+
 La versión vigente está en [revision_academica](revision_academica/README.md): análisis de restaurantes asiáticos en Europa, foco en España, predicción de valoración, interpretabilidad y demostrador local. Madrid es una aplicación complementaria.
 
 - [Memoria PDF](revision_academica/entrega/memoria_revisada.pdf)
 - [Presentación](revision_academica/entrega/presentacion_revisada_v2.pptx)
-- [Guion](revision_academica/entrega/guion_revisado.md)
 - [Anexo ejecutado](revision_academica/entrega/anexo_modelizacion.html)
 - [Modelos reentrenados y evaluación](revision_academica/resultados/)
 - [Reproducibilidad](REPRODUCIBILIDAD.md)
