@@ -2,7 +2,9 @@
 
 ## Estado de la entrega
 
-Material académico y técnico disponible. **Falta el vídeo obligatorio**: no se ha localizado un MP4 en el proyecto ni se ha facilitado un enlace. El PPT y el guion no sustituyen el vídeo. No consta una entrega en la plataforma docente.
+Memoria, vídeo y anexos disponibles. Vídeo MP4 de 4 min 35,90 s y 9,69 MB, con voz del alumno. Se conserva la grabación y su montaje, convertidos desde MOV a H.264/AAC. No consta una entrega en la plataforma docente.
+
+[Descargar vídeo MP4](https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/entrega/Peng_Chen_TFM_video.mp4). Si GitHub no ofrece reproducción en la página, descargar y abrir el archivo con un reproductor.
 
 ## Orden de revisión
 
@@ -16,7 +18,7 @@ Material académico y técnico disponible. **Falta el vídeo obligatorio**: no s
 
 [Descargar paquete revisado](https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/Peng_Chen_TFM_revision.zip).
 
-El ZIP contiene la revisión vigente, modelos entrenados, resultados, código, notebook de carga y análisis complementario. `revision_academica/manifest.json` registra tamaños y SHA-256 para comprobar los archivos. El archivo histórico está en Git, pero sus entregables obsoletos no forman parte del ZIP revisado.
+El ZIP contiene el vídeo y la revisión vigente, modelos entrenados, resultados, código, notebook de carga y análisis complementario. `revision_academica/manifest.json` registra tamaños y SHA-256 para comprobar los archivos. El archivo histórico está en Git, pero sus entregables obsoletos no forman parte del ZIP revisado.
 
 Los guiones personales de grabación se conservan solo localmente. No se incluyen entornos Python, cachés, archivos temporales ni copias de menús de terceros. Los CSV originales grandes de TripAdvisor, censo y padrón no están incluidos. Las fuentes y fechas figuran en `data/README.md` y los informes de `investigacion_madrid/`. Los resúmenes y resultados usados están incluidos. Descargar una fuente municipal actual puede producir datos distintos al snapshot analizado.
 
@@ -26,4 +28,4 @@ El modelo funciona localmente. `http://127.0.0.1:8765/` solo sirve en el ordenad
 
 ## Canal de entrega
 
-La guía docente, páginas 7–8, exige memoria, vídeo y anexos. Si el material no cabe en la plataforma, permite subir un documento de texto con una URL a un repositorio accesible. El fichero `Peng_Chen_Enlaces_TFM.txt` prepara esos enlaces, pero debe completarse con el vídeo antes de realizar la entrega definitiva. El repositorio es público en la comprobación realizada; no se ha cambiado su visibilidad.
+La guía docente, páginas 7–8, exige memoria, vídeo y anexos. Si el material no cabe en la plataforma, permite subir un documento de texto con una URL a un repositorio accesible. El fichero `Peng_Chen_Enlaces_TFM.txt` contiene los enlaces al vídeo, memoria y paquete para subirlo a la plataforma docente. El repositorio es público en la comprobación realizada; no se ha cambiado su visibilidad.
