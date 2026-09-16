@@ -4,21 +4,21 @@
 
 Memoria, vídeo y anexos disponibles. Vídeo MP4 de 4 min 35,60 s y 41,58 MB, con voz del alumno. Versión revisada por el alumno, con vídeo H.264 y audio AAC conservados sin recodificación. No consta una entrega en la plataforma docente.
 
-[Descargar vídeo MP4](https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/entrega/Peng_Chen_TFM_video.mp4). Si GitHub no ofrece reproducción en la página, descargar y abrir el archivo con un reproductor.
+[Descargar vídeo MP4](https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/Analisis_rest_Asiatico/entrega/Peng_Chen_TFM_video.mp4). Si GitHub no ofrece reproducción en la página, descargar y abrir el archivo con un reproductor.
 
 ## Orden de revisión
 
-1. [Memoria PDF](revision_academica/entrega/memoria_revisada.pdf).
-2. [Anexo de modelización ejecutado](revision_academica/entrega/anexo_modelizacion.html) y [notebook](revision_academica/entrega/anexo_modelizacion.ipynb). Descargar el HTML para visualizarlo localmente.
-3. [Presentación](revision_academica/entrega/presentacion_revisada_v4.pptx).
-4. [Modelos y evaluación](revision_academica/resultados/) y [código](revision_academica/src/).
-5. [Derechos de datos](revision_academica/DERECHOS_DATOS.md), [reproducibilidad](REPRODUCIBILIDAD.md) e [investigación complementaria de Madrid](investigacion_madrid/README.md).
+1. [Memoria PDF](Analisis_rest_Asiatico/entrega/memoria_revisada.pdf).
+2. [Anexo de modelización ejecutado](Analisis_rest_Asiatico/entrega/anexo_modelizacion.html) y [notebook](Analisis_rest_Asiatico/entrega/anexo_modelizacion.ipynb). Descargar el HTML para visualizarlo localmente.
+3. [Presentación](Analisis_rest_Asiatico/entrega/presentacion_revisada_v4.pptx).
+4. [Modelos y evaluación](Analisis_rest_Asiatico/resultados/) y [código](Analisis_rest_Asiatico/src/).
+5. [Derechos de datos](Analisis_rest_Asiatico/DERECHOS_DATOS.md), [reproducibilidad](REPRODUCIBILIDAD.md) e [investigación complementaria de Madrid](investigacion_madrid/README.md).
 
 ## Descarga
 
-[Descargar paquete revisado](https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/Peng_Chen_TFM_revision.zip).
+[Descargar paquete revisado](https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/Analisis_rest_Asiatico/Peng_Chen_TFM_revision.zip).
 
-El ZIP contiene el vídeo y la revisión vigente, modelos entrenados, resultados, código, notebook de carga y análisis complementario. `revision_academica/manifest.json` registra tamaños y SHA-256 para comprobar los archivos. El archivo histórico está en Git, pero sus entregables obsoletos no forman parte del ZIP revisado.
+El ZIP contiene el vídeo y la revisión vigente, modelos entrenados, resultados, código, notebook de carga y análisis complementario. `Analisis_rest_Asiatico/manifest.json` registra tamaños y SHA-256 para comprobar los archivos.
 
 Los guiones personales de grabación se conservan solo localmente. No se incluyen entornos Python, cachés, archivos temporales ni copias de menús de terceros. Los CSV originales grandes de TripAdvisor, censo y padrón no están incluidos. Las fuentes y fechas figuran en `data/README.md` y los informes de `investigacion_madrid/`. Los resúmenes y resultados usados están incluidos. Descargar una fuente municipal actual puede producir datos distintos al snapshot analizado.
 

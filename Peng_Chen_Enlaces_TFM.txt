@@ -8,13 +8,13 @@ Material vigente e instrucciones para los tutores:
 https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/blob/main/ENTREGA_TUTORES.md
 
 Paquete de la revisión (PDF, vídeo MP4, PPT, anexos, código y modelos):
-https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/Peng_Chen_TFM_revision.zip
+https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/Analisis_rest_Asiatico/Peng_Chen_TFM_revision.zip
 
 Memoria:
-https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/blob/main/revision_academica/entrega/memoria_revisada.pdf
+https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/blob/main/Analisis_rest_Asiatico/entrega/memoria_revisada.pdf
 
 Vídeo MP4 (4 min 35,60 s; 41,58 MB):
-https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/entrega/Peng_Chen_TFM_video.mp4
+https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/Analisis_rest_Asiatico/entrega/Peng_Chen_TFM_video.mp4
 
 ESTADO: memoria, vídeo y anexos disponibles en el repositorio. La entrega en la plataforma docente debe realizarla el alumno.
 Los CSV originales voluminosos se obtienen mediante las fuentes documentadas en data/README.md. No son necesarios para ejecutar la inferencia con los modelos incluidos.

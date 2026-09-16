@@ -1,6 +1,6 @@
 # Madrid: estudio de mercado y viabilidad económica
 
-> **Actualización de alcance, 13/09/2026:** esta investigación se conserva como aplicación complementaria y anexo. El núcleo del TFM vuelve a la propuesta aprobada: análisis europeo y predicción de rating. Véase [revisión académica](../revision_academica/README.md). La pregunta económica que sigue documenta esta línea exploratoria; no sustituye la pregunta principal del TFM.
+> **Actualización de alcance, 13/09/2026:** esta investigación se conserva como aplicación complementaria y anexo. El núcleo del TFM vuelve a la propuesta aprobada: análisis europeo y predicción de rating. Véase [revisión académica](../Analisis_rest_Asiatico/README.md). La pregunta económica que sigue documenta esta línea exploratoria; no sustituye la pregunta principal del TFM.
 
 Fecha de consulta: 12/09/2026. Autor del TFM: Peng Chen.
 

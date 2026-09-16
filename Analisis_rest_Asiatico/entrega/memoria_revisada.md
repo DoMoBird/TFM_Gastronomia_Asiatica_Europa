@@ -1,0 +1,185 @@
+# Gastronomía asiática en Europa
+
+Peng Chen · Septiembre 2026
+
+## 1. Introducción, objetivos y alcance
+
+Este Trabajo Fin de Máster analiza la gastronomía asiática en Europa con especial atención a España, a partir de TripAdvisor European Restaurants. Conserva la modalidad de análisis de un dataset: análisis exploratorio, preprocesamiento, predicción de valoración, evaluación e interpretación. La motivación empresarial es comprender qué información puede aportar la analítica de restaurantes a una decisión como abrir un buffet de sushi en Madrid.
+
+La pregunta principal es hasta qué punto las características registradas permiten estimar la valoración media de restaurantes asiáticos y cómo cambia la capacidad predictiva al disponer de información reputacional. Se comparan dos conjuntos de variables: características del establecimiento y esas mismas características junto con subpuntuaciones y número de reseñas. Esta comparación evita confundir una buena estimación condicionada a opiniones ya existentes con una predicción de una nueva apertura.
+
+El objetivo de negocio es apoyar la exploración y revisión de información de establecimientos existentes. Una posible utilidad es contrastar una valoración registrada con una referencia estimada, siempre con revisión humana. Esta utilidad es una propuesta de aplicación: no se ha medido su impacto en una organización ni validado imputación de ratings ausentes, cuyo mecanismo de ausencia puede diferir del conjunto observado.
+
+La unidad de análisis es el restaurante registrado en la plataforma. La variable objetivo es avg_rating, entre 1 y 5. Se estima una relación transversal en un snapshot histórico; no se pronostican ventas, beneficios ni valoraciones futuras. La investigación complementaria de Madrid contextualiza la aplicación y sus límites, sin sustituir el objetivo de modelización aprobado.
+
+El trabajo conecta Python y preparación de datos, estadística descriptiva, modelos lineales y conjuntos de árboles estudiados en el máster, explicación de modelos y desarrollo de una interfaz software. El valor añadido se concentra en la auditoría de adecuación del dato, la ablación de información reputacional y un contrato de inferencia verificable. El código completo y los estudios preliminares se mantienen como anexos.
+
+## 2. Fuentes, derechos de uso y calidad
+
+La fuente principal es el dataset de Stefano Leone en Kaggle [1]. La API oficial consultada el 13/09/2026 indica versión 1, última actualización 18/05/2021 y licencia «CC0: Public Domain». Se conserva la respuesta en resultados/kaggle_metadata.json. La fecha de actualización no es una serie temporal ni garantiza la fecha exacta de cada observación. El fichero original contiene 1.083.397 registros; el subconjunto asiático analizado contiene 86.306 filas y 42 columnas.
+
+La declaración CC0 del publicador respalda el uso académico del conjunto publicado; no debe confundirse con una autorización adicional de TripAdvisor ni con una garantía sobre todos los derechos de terceros. Se identifica autor, URL, versión y fecha. No se reproducen textos de reseñas ni imágenes de la plataforma en esta revisión. El anexo de derechos documenta por separado las fuentes municipales, del INE y las consultas comerciales.
+
+Se utilizan el censo municipal de locales y el padrón agregado de Madrid [2], junto con renta del INE ADRH 2023 [3]. Se citan las fuentes, periodos y transformaciones conforme a sus condiciones de reutilización. Los menús y anuncios se usan como observaciones puntuales de hechos publicados, con enlace y fecha; no se les atribuye una licencia abierta ni se redistribuyen como base comercial completa.
+
+| Control | Resultado |
+| --- | --- |
+| Restaurantes asiáticos | 86.306 |
+| Identificadores de restaurante duplicados | 0 |
+| Sin valoración objetivo | 4.991 |
+| Filas con rating válido para modelos | 81.315 |
+| Etiquetas territoriales originales | 24 |
+| Registros de España | 8.295 |
+
+No hay columnas de identidad de autores de reseñas en el esquema utilizado. Se excluyen del modelo nombres comerciales, direcciones, enlaces, palabras clave y texto libre. El identificador del restaurante se utiliza localmente para comprobar duplicados. Los productos entregados muestran resultados agregados y un ejemplo sin nombre. No se afirma que todos los datos comerciales sean necesariamente ajenos al GDPR: pueden identificar empresarios individuales. Se mantiene minimización de campos y acceso local; véase el anexo de derechos y privacidad [4].
+
+## 3. EDA europeo y comparación territorial
+
+![Figura 1. Elaboración propia con TripAdvisor European Restaurants. Frecuencia de registros; no censo completo de oferta.](../resultados/paises.png)
+
+England concentra 24.090 registros, France 13.300, Germany 9.431 y Spain 8.295. Estas cifras describen cobertura de la plataforma y del filtro aplicado. No permiten medir por sí solas saturación comercial, cuota de mercado o propensión a consumir cocina asiática. Se mantienen England, Scotland, Wales y Northern Ireland separadas, como en el dataset; por ello, las 24 etiquetas no se presentan como 24 estados soberanos.
+
+| Etiqueta | N con rating | Rating medio |
+| --- | --- | --- |
+| England | 22914 | 3,95 |
+| France | 12676 | 3,98 |
+| Germany | 8836 | 4,06 |
+| Spain | 7758 | 4,00 |
+| Italy | 6984 | 3,90 |
+| The Netherlands | 3562 | 4,05 |
+
+Las diferencias de valoración entre territorios no identifican efectos causales del país: pueden reflejar mezcla de cocinas, precios, selección de usuarios, cobertura y reglas de registro. La comparación mantiene el número de observaciones con rating junto a la media, para no ocultar distintos tamaños y ausencia del objetivo. No se construye un ranking de oportunidades de inversión a partir de esas medias.
+
+## 4. EDA de cocinas, cobertura y reputación
+
+Un restaurante puede tener varias etiquetas de cocina; los recuentos por cocina no son categorías mutuamente excluyentes y no deben sumarse como total de establecimientos. El subconjunto previo se obtuvo buscando las etiquetas asiáticas definidas en el notebook de carga. En la nueva modelización las variables de cocina se codifican por tokens separados por comas, sin identificar buffet a partir de ausencia de etiqueta.
+
+| Etiqueta de cocina | Registros con etiqueta |
+| --- | --- |
+| Asian | 53658 |
+| Chinese | 29046 |
+| Indian | 21119 |
+| Japanese | 20645 |
+| Sushi | 17777 |
+| Thai | 11004 |
+| Vietnamese | 7005 |
+| Fast food | 5894 |
+
+La mediana de valoración es 4,0 y la correlación lineal entre número de reseñas y rating es 0,077. Una correlación pequeña no implica independencia ni demuestra que las reseñas midan exclusivamente visibilidad. La distribución del objetivo es discreta y concentrada en puntuaciones relativamente altas; por ello se incluye una referencia que siempre predice la media.
+
+La ciudad está ausente en el 60,3% de los registros españoles. No es válido afirmar que Madrid sea el mayor mercado español a partir del ranking de ciudades registradas. La falta de información sobre formato buffet también impide interpretar unos pocos registros etiquetados como el total de competidores.
+
+Los premios o menciones con año no constituyen una serie de aperturas. No se presentan como tendencia de crecimiento del buffet. El análisis histórico permite describir la muestra, mientras que población y menús más recientes aportan contexto distinto. Unir fuentes de años diferentes no convierte el rating histórico en una medición del mercado actual.
+
+## 5. Preprocesamiento y diseño experimental
+
+Se comprueba unicidad de restaurant_link antes de separar observaciones. Se eliminan las filas sin objetivo válido; no se imputa el rating. El experimento emplea 48.789 filas de entrenamiento, 16.263 de validación y 16.263 de test, con semilla 20260913 y estratificación por etiqueta territorial. Los índices de partición y el SHA-256 del fichero de entrada quedan registrados.
+
+Se imputan medianas numéricas e indicadores de ausencia; las categorías ausentes se representan como Unknown. Se escalan variables numéricas y se aplica one-hot a las categóricas. Estas transformaciones se ajustan exclusivamente en entrenamiento para comparar algoritmos. Tras seleccionar por RMSE de validación, se reajusta el pipeline en entrenamiento más validación y se evalúa una vez en test por conjunto de variables.
+
+| Conjunto | Variables |
+| --- | --- |
+| Sin reputación | Coordenadas, horarios, país/región, precio, dietas y etiquetas de cocina |
+| Con reputación | Las anteriores + food, service, value, atmosphere y log1p(reseñas) |
+| Excluidas | Identificadores, texto libre, premios, rankings y desglose de votos del rating |
+
+La primera variante tampoco es una predicción validada de aperturas: sus atributos se observaron en negocios ya existentes y pueden haber cambiado tras abrir. La segunda usa mediciones contemporáneas que comparten el constructo de satisfacción con el objetivo. La ablación evalúa sensibilidad a esa información; no identifica un efecto causal de mejorar comida o servicio.
+
+Se comparan media constante, regresión lineal, Random Forest y XGBoost. El modelo lineal ofrece una referencia sencilla; los árboles capturan no linealidades e interacciones. RF utiliza 100 árboles, profundidad máxima 16 y mínimo 8 observaciones por hoja. XGBoost utiliza 220 árboles, profundidad 4, tasa 0,06 y muestreo 0,85 de filas y columnas. Son configuraciones prefijadas y documentadas, sin una nueva búsqueda exhaustiva. Las versiones exploratorias de SVR y red densa quedan como antecedentes, no se mezclan sus métricas con este experimento.
+
+El test no se utiliza para elegir algoritmo ni hiperparámetros. Sin embargo, la base ya fue explorada en la versión anterior: este nuevo reparto no equivale a validación externa independiente. No hay separación temporal, por cadena o por país; no se demuestra generalización a nuevas regiones ni al mercado de 2026.
+
+## 6. Evaluación y alcance de la mejora
+
+| Variables | Modelo | RMSE validación | MAE validación |
+| --- | --- | --- | --- |
+| sin reputacion | Media | 0,681 | 0,501 |
+| sin reputacion | Lineal | 0,633 | 0,478 |
+| sin reputacion | RandomForest | 0,620 | 0,460 |
+| sin reputacion | XGBoost | 0,621 | 0,463 |
+| con reputacion | Media | 0,681 | 0,501 |
+| con reputacion | Lineal | 0,542 | 0,371 |
+| con reputacion | RandomForest | 0,535 | 0,355 |
+| con reputacion | XGBoost | 0,533 | 0,357 |
+
+Random Forest obtiene el menor RMSE de validación sin reputación, con una diferencia muy pequeña frente a XGBoost. Se aplica el criterio prefijado, sin afirmar superioridad estadísticamente demostrada. Con reputación se selecciona XGBoost. En validación, ambos conjuntos de árboles mejoran al añadir reputación. El contraste final cambia también de algoritmo: no aísla solo las variables. El demostrador se elige por disponibilidad de entradas.
+
+![Figura 2. Test histórico común: 16.263 restaurantes. Predicciones sin recortar a [1,5].](../resultados/metricas.png)
+
+En test, Random Forest sin reputación obtiene RMSE 0,625, MAE 0,462 y R² 0,193. Frente al RMSE 0,695 de la media constante, la reducción es del 10,2%. XGBoost con reputación obtiene RMSE 0,542, MAE 0,361 y R² 0,392. Una parte importante de la variabilidad sigue sin explicarse.
+
+El subgrupo español del test contiene 1552 filas: MAE 0,478 y RMSE 0,640 sin reputación. Los errores por territorio se conservan en el anexo; no son comparaciones ajustadas por composición. El intervalo percentil bootstrap del MAE sin reputación, con 500 remuestreos del test, es [0,455, 0,468]. Es incertidumbre condicional de esta muestra, no un intervalo para un restaurante ni garantía frente a deriva temporal.
+
+## 7. Interpretabilidad y revisión del modelo
+
+![Figura 3. Importancia por permutación en 1.200 filas de validación, tres repeticiones, antes del reajuste final.](../resultados/interpretacion.png)
+
+La importancia se mide como aumento de RMSE cuando se desordena una variable manteniendo el resto. Se calcula sobre validación, no sobre el conjunto utilizado para ajustar el modelo comparado. Esta explicación es independiente de la familia de modelo y permite comparar ambos conjuntos de variables sobre el mismo criterio.
+
+Sin reputación destacan en esta muestra la etiqueta Chinese, opciones veganas y días abiertos, seguidas de longitud y opciones vegetarianas. Con reputación destacan food y service. El orden identifica dependencia predictiva del modelo, no el beneficio de intervenir sobre esas variables. Etiquetas y ausencia de información pueden actuar como proxies de contexto, tipo de establecimiento o calidad del registro.
+
+Variables correlacionadas pueden repartirse o enmascarar importancia; una permutación individual puede crear combinaciones poco plausibles. Las tres repeticiones ofrecen una medida de variabilidad computacional, no una prueba de significación. No se interpreta una importancia pequeña como ausencia de relevancia empresarial de la ubicación.
+
+La versión anterior utilizaba SHAP para un modelo con subpuntuaciones y extraía recomendaciones de inversión. Sus gráficos no se reutilizan como explicación del nuevo Random Forest: corresponden a otro ajuste. En esta revisión la explicación principal se recalcula con permutación, y el contraste entre variantes documenta de forma explícita la dependencia de información reputacional.
+
+Como mejora futura se propone una validación con nueva captura, análisis de errores por presencia de subratings y evaluación agrupada por cadenas. Cualquier decisión sobre un restaurante concreto debe revisar la calidad de sus entradas y el error del subgrupo, sin convertir una estimación puntual en un juicio automático de éxito o fracaso.
+
+## 8. Productivización: demostrador local
+
+Se desarrolla una aplicación local que carga el pipeline sin reputación y permite introducir características de un establecimiento existente. El artefacto integra transformaciones y estimador; evita reconstruir preprocesamientos manuales que producirían diferencias entre entrenamiento e inferencia. La entrada no incluye subpuntuaciones, reseñas, nombre ni dirección.
+
+| Componente | Función implementada |
+| --- | --- |
+| Interfaz web | Formulario, ejemplo histórico sin nombre y explicación del resultado |
+| Contrato de entrada | Campos exactos, tipos, números finitos y rangos observados |
+| Geografía | País/región obligatorios y pareja presente en entrenamiento |
+| Inferencia | Pipeline único; nulos explícitos; sin coordenadas por defecto |
+| Versionado | Identificador de versión, hash del modelo y del dataset |
+| Monitorización | Peticiones, errores, latencia acumulada y ausencias por campo |
+
+El servicio escucha únicamente en 127.0.0.1. Ofrece /predict, /health y /metrics, además de esquema y ejemplo. La predicción se devuelve sin recorte; si excede la escala, se marca para revisión. Se comprueba paridad con la llamada directa al pipeline, rechazo de entradas fuera de contrato, país/región incompatibles y valores no finitos, además del tratamiento explícito de nulos.
+
+Los contadores de monitorización se mantienen en memoria durante la sesión; no se guardan entradas, IPs ni identificadores. Se muestra una alerta heurística cuando la proporción de ausencias de un campo supera en 10 puntos porcentuales la referencia de entrenamiento, tras al menos 20 respuestas correctas. No es un test estadístico de deriva. Sin ratings reales posteriores no se puede monitorizar el error en producción.
+
+Se entrega un prototipo funcional de extremo a extremo, no un servicio empresarial desplegado públicamente. Quedan pendientes autenticación, límites de tráfico, persistencia de métricas, gestión de infraestructura y validación con usuarios. La promoción de otra versión requiere repetir evaluación y contrato, conservar la anterior para reversión y actualizar el registro de artefactos. El uso de joblib se limita al modelo local generado por el proyecto.
+
+El beneficio demostrado es técnico: una petición válida produce una respuesta trazable y las entradas inválidas se rechazan. No se cuantifica ahorro económico o mejora de decisiones organizativas sin un estudio de usuarios. La documentación de ejecución, pruebas y límites se incorpora al anexo de reproducibilidad.
+
+## 9. Aplicación y límites en Madrid
+
+Madrid se utiliza como caso complementario de aplicación. El censo descargado contiene 203.637 identificadores únicos y fecha de carga 11/09/2026. El padrón agregado suma 3.520.470 residentes, con referencia 01/08/2026, en 21 distritos y 131 barrios. Los nombres de fichero no se utilizan como sustituto de las fechas internas. Estos datos describen registros administrativos y residentes; no son clientela potencial medida.
+
+| Distrito | Renta neta anual / hogar, 2023 |
+| --- | --- |
+| Chamartín | 79.274,17 € |
+| Moncloa-Aravaca | 71.710,88 € |
+| San Blas-Canillejas | 44.468,00 € |
+| Barajas | 58.405,49 € |
+
+Elaboración propia con datos extraídos del sitio web del INE [3], ADRH 2023, publicación 21/10/2025. Estas rentas son de distrito, no de Nueva España, Argüelles, Simancas o Casco Histórico de Barajas individualmente. No se ponderan por población de 2026 para fabricar ingresos de barrio ni se extrapolan automáticamente al año de consulta.
+
+La revisión de webs identifica ofertas de buffet de sushi como Azuki, Ichi y Kote, con precios y condiciones distintos según servicio, bebidas y festivos. Se registran fuentes y ambigüedades. Es una muestra de descubrimiento, no un censo: no permite inferir competencia mínima, cuota de mercado ni demanda insatisfecha. Los anuncios de locales separan alquiler, traspaso y superficie, sin usar sus afirmaciones comerciales como evidencia de facturación.
+
+El modelo de rating no incluye una variable fiable de formato buffet y no predice demanda o márgenes. Los escenarios económicos de la investigación complementaria calculan condiciones de equilibrio con supuestos explícitos, pero no son resultados de aprendizaje automático ni estimaciones de inversión rentable. Sus tablas detalladas permanecen en anexos, fuera del núcleo de este TFM.
+
+La conclusión empresarial es condicional: antes de decidir una apertura concreta hacen falta costes y capacidad reales, consumo y merma, turnos, inversión inicial y observación de afluencia por servicio. La analítica europea ayuda a formular preguntas y advertir sesgos; no resuelve por sí sola esa decisión.
+
+## 10. Conclusiones, líneas futuras y referencias
+
+El trabajo conserva el análisis europeo y la predicción de valoración como núcleo. La principal aportación es distinguir capacidad predictiva de utilidad empresarial: el modelo sin reputación mejora la referencia de la media, pero presenta error relevante; el modelo con reputación mejora más al disponer de opiniones contemporáneas. Esa mejora no demuestra capacidad de anticipar el éxito de una nueva apertura.
+
+La auditoría evita confundir etiquetas territoriales con países soberanos, registros de una plataforma con censo de mercado y falta de etiqueta con ausencia de competencia. El contraste de variables y la explicación por permutación conectan evaluación estadística con disponibilidad real de información. La aplicación permite comprobar inferencia, validación de entradas y trazabilidad sin prometer un despliegue empresarial completo.
+
+Las prioridades futuras son obtener una muestra independiente y actual, validar por tiempo y cadenas, estudiar el mecanismo de ausencia del rating, refinar hiperparámetros solo con datos de desarrollo y medir uso real del demostrador. Para una investigación de inversión se requieren ventas o afluencia y costes observados. Los datos de Madrid se mantienen como extensión contextual coherente con el alcance original.
+
+El anexo A contiene fuentes, derechos y correspondencia con la guía; el B, código de entrenamiento, particiones y métricas; el C, servicio y pruebas; el D, investigación de Madrid y escenarios. La memoria, presentación y guion revisados deben utilizarse conjuntamente. Los entregables históricos se conservan como antecedentes y no deben mezclarse con las métricas de esta revisión.
+
+**Bibliografía breve** (consulta: 13/09/2026).
+
+[1] Leone, S. TripAdvisor European Restaurants, Kaggle, versión 1 (2021). kaggle.com/datasets/stefanoleone992/tripadvisor-european-restaurants. Metadatos oficiales conservados en anexos.
+
+[2] Ayuntamiento de Madrid. Censo de locales, padrón y condiciones de reutilización. datos.madrid.es/pages/aviso-legal. Fuentes y controles completos en investigación de Madrid.
+
+[3] INE. Atlas de Distribución de Renta de los Hogares 2023 y aviso legal. ine.es/dyngs/Prensa/ADRH2023.htm. Elaboración propia sobre datos del INE.
+
+[4] Unión Europea. Reglamento (UE) 2016/679, artículo 4 y considerando 26. eur-lex.europa.eu/eli/reg/2016/679/oj. Documentación técnica: scikit-learn.org y xgboost.readthedocs.io.

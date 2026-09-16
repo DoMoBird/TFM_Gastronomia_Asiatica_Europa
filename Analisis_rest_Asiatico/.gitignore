@@ -1,0 +1,18 @@
+build/
+__pycache__/
+**/__pycache__/
+*.zip
+node_modules/
+.chart-data-*/
+.codex-finalizer/
+entrega/presentacion_revisada.pptx
+
+# Paquete revisado para compartir con los tutores
+!Peng_Chen_TFM_revision.zip
+
+# Guiones personales de grabación
+entrega/guion*.md
+resultados/guion_slides.json
+
+# Enlace local al runtime de presentaciones
+node_modules

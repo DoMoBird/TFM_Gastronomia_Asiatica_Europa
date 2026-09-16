@@ -1,0 +1,31 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Evaluación de restaurantes asiáticos</title>
+<style>body{font:17px Arial,sans-serif;color:#173040;background:#f7f7f3;max-width:1000px;margin:45px auto;padding:0 25px}h1{font-size:38px}p{line-height:1.6}fieldset{border:0;padding:0;margin:30px 0}#fields{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}label{display:block}input,select,button{font:inherit;padding:9px;box-sizing:border-box}input,select{width:100%;margin-top:5px}button:disabled{opacity:.5;cursor:wait}button{background:#173040;color:white;border:0;cursor:pointer;margin:6px 12px 6px 0}#result{white-space:pre-wrap;background:white;padding:20px;line-height:1.6}small{color:#53646a}@media(max-width:600px){#fields{grid-template-columns:1fr}}</style>
+<h1>Valoración de restaurantes asiáticos</h1><p>Demostrador académico · Peng Chen</p><p>Estima la valoración de un restaurante existente a partir de sus características. El modelo se ha evaluado sobre una fotografía histórica de 2021. No predice ventas, rentabilidad ni el éxito de una nueva apertura.</p>
+<p>País y región deben corresponder a los datos observados. Los campos vacíos se consideran desconocidos; no se inventa una ubicación por defecto. En cocina, 1 significa etiqueta presente y 0 etiqueta no registrada.</p>
+<button id="example" type="button" disabled>Cargar ejemplo histórico sin nombre</button><form id="form"><fieldset id="fields"></fieldset><button id="estimate" disabled>Estimar valoración</button></form><div id="result" role="status">Introduce las características o carga el ejemplo.</div><p><small>El error medio del test es una medida agregada, no un intervalo de confianza para este restaurante.</small></p>
+<script>
+const labels={latitude:'Latitud',longitude:'Longitud',open_days_per_week:'Días abiertos / semana',open_hours_per_week:'Horas abiertas / semana',working_shifts_per_week:'Turnos / semana',country:'País o etiqueta territorial',region:'Región',price_level:'Nivel de precio',vegetarian_friendly:'Opciones vegetarianas (Y/N)',vegan_options:'Opciones veganas (Y/N)',gluten_free:'Sin gluten (Y/N)'};
+const buttons=[document.querySelector('#example'),document.querySelector('#estimate')];
+function busy(value){buttons.forEach(b=>b.disabled=value);}
+async function request(path,options){let response=await fetch(path,{...options,signal:AbortSignal.timeout(15000)});let data=await response.json();if(!response.ok)throw new Error(data.error||'Error del servicio');return data;}
+function showError(e){result.textContent='No se pudo completar la operación. Comprueba que el servicio local sigue abierto y vuelve a intentarlo. Detalle: '+e.message;}
+let schema,regions;const fields=document.querySelector('#fields'),result=document.querySelector('#result');
+async function init(){schema=await request('/schema');regions=await request('/regions');for(const [key,r] of Object.entries(schema)){let label=document.createElement('label');label.textContent=labels[key]||'Cocina: '+key.replace('cuisine_','').replaceAll('_',' ');let input=document.createElement(r.type==='category'?'select':'input');input.name=key;if(r.type==='category'){input.add(new Option('Desconocido',''));for(const v of r.values)input.add(new Option(v,v));}else{input.type='number';input.step='any';input.min=r.min;input.max=r.max;}label.append(input);fields.append(label);}document.querySelector('[name=country]').addEventListener('change',updateRegions);busy(false);}
+function updateRegions(){let country=document.querySelector('[name=country]').value,select=document.querySelector('[name=region]');select.replaceChildren(new Option('Selecciona región',''));for(const r of regions[country]||[])select.add(new Option(r,r));}
+document.querySelector('#example').onclick=async()=>{
+ busy(true);
+ try{let row=await request('/example');document.querySelector('[name=country]').value=row.country;updateRegions();for(const[k,v]of Object.entries(row))document.querySelector(`[name="${k}"]`).value=v??'';result.textContent='Ejemplo cargado. Pulsa «Estimar valoración» para obtener el resultado.';}
+ catch(e){showError(e);}finally{busy(false);}
+};
+document.querySelector('#form').onsubmit=async e=>{
+ e.preventDefault();if(!schema)return;busy(true);result.textContent='Calculando valoración…';
+ try{let row={};for(const[k,r]of Object.entries(schema)){let v=document.querySelector(`[name="${k}"]`).value;row[k]=v===''?null:r.type==='number'?Number(v):v;}
+ let d=await request('/predict',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(row)});
+ result.textContent=`Valoración estimada: ${d.rating_estimado.toFixed(2)} / 5\nModelo: ${d.modelo} · ${d.version}\nError absoluto medio del test histórico: ${d.MAE_test_historico.toFixed(3)} puntos\n\n${d.advertencias.join('\n')}`;
+ }catch(e){showError(e);}finally{busy(false);}
+};
+if(location.protocol==='file:'){
+ result.textContent='Esta página necesita el servicio local del modelo. Inícialo desde la carpeta TFM con:\npython Analisis_rest_Asiatico/src/servir.py --port 8765\nDespués abre: ';
+ const link=document.createElement('a');link.href='http://127.0.0.1:8765/';link.textContent='Abrir aplicación local';result.append(link);
+}else{init().catch(e=>{showError(e);const retry=document.createElement('button');retry.textContent='Reintentar conexión';retry.onclick=()=>location.reload();result.append(document.createElement('br'),retry);});}
+</script></html>
