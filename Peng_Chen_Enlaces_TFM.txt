@@ -11,7 +11,7 @@ Paquete de la revisión (PDF, vídeo MP4, PPT, anexos, código y modelos):
 https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/Analisis_rest_Asiatico/Peng_Chen_TFM_revision.zip
 
 Memoria:
-https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/blob/main/Analisis_rest_Asiatico/entrega/memoria_revisada.pdf
+https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/blob/main/Analisis_rest_Asiatico/entrega/Peng_Chen_Memoria_TFM.pdf
 
 Vídeo MP4 (4 min 35,60 s; 41,58 MB):
 https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/Analisis_rest_Asiatico/entrega/Peng_Chen_TFM_video.mp4

@@ -12,8 +12,8 @@
     "sha256": "22a2f4e2a261efa7cdcb912953c70987e97267b290965dca33fded1c3a415e61"
   },
   "Analisis_rest_Asiatico/README.md": {
-    "bytes": 6031,
-    "sha256": "27e8a7bd8835079414b5ac3c506ce3c4b9b6f86d7e45bf0e633edf3aed66f622"
+    "bytes": 6036,
+    "sha256": "6f596e1a4d398b62fae9a67b8e2f4998c7923ee6425a99b9b6579f2f23e6b078"
   },
   "Analisis_rest_Asiatico/assets/README.md": {
     "bytes": 414,
@@ -22,6 +22,10 @@
   "Analisis_rest_Asiatico/assets/app_ejemplo_recorte.png": {
     "bytes": 67649,
     "sha256": "4c65e48858fcabb4ef1dd84c27f54bbf56cd4b9343cd263d8560a0dbef7909f0"
+  },
+  "Analisis_rest_Asiatico/entrega/Peng_Chen_Memoria_TFM.pdf": {
+    "bytes": 236003,
+    "sha256": "d42f9e55eb5226c21c424faaf6af492427dfa4f30b44699fc5b0dbd205b89f03"
   },
   "Analisis_rest_Asiatico/entrega/Peng_Chen_TFM_video.mp4": {
     "bytes": 41579248,
@@ -42,10 +46,6 @@
   "Analisis_rest_Asiatico/entrega/memoria_revisada.md": {
     "bytes": 21117,
     "sha256": "f0e3baf477f6d597f2f58c7e25fa23fea4feee8ef7d049f712d9533e792ccbf2"
-  },
-  "Analisis_rest_Asiatico/entrega/memoria_revisada.pdf": {
-    "bytes": 236003,
-    "sha256": "d42f9e55eb5226c21c424faaf6af492427dfa4f30b44699fc5b0dbd205b89f03"
   },
   "Analisis_rest_Asiatico/entrega/presentacion_revisada_v4.pptx": {
     "bytes": 122988,
@@ -112,8 +112,8 @@
     "sha256": "64d3cc6775c789fa3b5fe0d7a5ce7dff32766cfd6e680f4586994aca8d6fe39f"
   },
   "Analisis_rest_Asiatico/src/empaquetar.py": {
-    "bytes": 1929,
-    "sha256": "388640baa4c85dd18485df02f18c3a9073b8d94010124270680b3436782fb29c"
+    "bytes": 1934,
+    "sha256": "e1d2030e94676a069723a4fbe1b99d65e629b5516ba494879ccc6b9b67542312"
   },
   "Analisis_rest_Asiatico/src/entrenar.py": {
     "bytes": 9240,
@@ -128,8 +128,8 @@
     "sha256": "9582a7ef54233f41aa287e9e5ccc78204a68d0bd8b31cdee386e83b52177c60a"
   },
   "Analisis_rest_Asiatico/src/memoria.py": {
-    "bytes": 26020,
-    "sha256": "52968f27053e4546ed36aa7cac1cdca1f96378aad3d4a647d3329afa8bde66ef"
+    "bytes": 26025,
+    "sha256": "720838a18ae94e95692f1428a5707bfad06668ff5efd156fdf09a7037980e38e"
   },
   "Analisis_rest_Asiatico/src/notebook.py": {
     "bytes": 5061,
@@ -156,16 +156,16 @@
     "sha256": "f890808aca25f59f0c0292632f7fb1166761021785a659eece7895464045a952"
   },
   "ENTREGA_TUTORES.md": {
-    "bytes": 2902,
-    "sha256": "60b5238c821b8366e4d632ed2728c7eec5856e7dc292104ad515553c09c975c3"
+    "bytes": 2907,
+    "sha256": "1a5f3ed54280191237e04045a2b67da07f578542a35faf4b45667d17ff106c04"
   },
   "Peng_Chen_Enlaces_TFM.txt": {
-    "bytes": 1144,
-    "sha256": "a1b480c905fd4944b451bc3f41661e503b39e573049a955558b0793e123fbea0"
+    "bytes": 1149,
+    "sha256": "fdc790de3c625709958623b735483ff262b259b868fb3c034d6701486281437a"
   },
   "README.md": {
-    "bytes": 930,
-    "sha256": "8c8b0984123777bc37fe0f21fbfb893d9847eff22db3a68813f3ce61fde24b50"
+    "bytes": 935,
+    "sha256": "8417b7e71238c3ce92b13a83c8497aaacc4a42ae89953b0783ea62752eaba4b3"
   },
   "REPRODUCIBILIDAD.md": {
     "bytes": 1109,

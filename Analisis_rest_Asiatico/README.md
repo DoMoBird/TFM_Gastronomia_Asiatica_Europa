@@ -4,7 +4,7 @@ Esta es la versión de trabajo alineada con la propuesta aprobada: **EDA europeo
 
 ## Lectura
 
-- `entrega/memoria_revisada.pdf`: portada e índice propios, cuerpo de 10 páginas; párrafos justificados.
+- `entrega/Peng_Chen_Memoria_TFM.pdf`: portada e índice propios, cuerpo de 10 páginas; párrafos justificados.
 - `entrega/presentacion_revisada_v4.pptx`: presentación vigente. Los guiones de grabación son material personal local y no se distribuyen.
 - `ALINEACION_REQUISITOS.md`: propuesta, guía y correo docente cotejados.
 - `DERECHOS_DATOS.md`: evidencia de uso y privacidad.

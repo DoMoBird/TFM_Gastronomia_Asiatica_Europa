@@ -4,7 +4,7 @@ import hashlib,json
 from zipfile import ZipFile,ZIP_DEFLATED
 B=Path(__file__).resolve().parents[1]
 T=B.parent
-required=['Peng_Chen_TFM_video.mp4','memoria_revisada.pdf','presentacion_revisada_v4.pptx','anexo_modelizacion.ipynb','anexo_modelizacion.html']
+required=['Peng_Chen_TFM_video.mp4','Peng_Chen_Memoria_TFM.pdf','presentacion_revisada_v4.pptx','anexo_modelizacion.ipynb','anexo_modelizacion.html']
 assert all((B/'entrega'/name).is_file() for name in required)
 files=[]
 for p in B.rglob('*'):
