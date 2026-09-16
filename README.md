@@ -1,6 +1,6 @@
 # TFM — Peng Chen
 
-[Acceso para tutores y descarga del paquete](ENTREGA_TUTORES.md). **Vídeo MP4 incluido: 4 min 35,90 s, 9,69 MB.**
+[Acceso para tutores y descarga del paquete](ENTREGA_TUTORES.md). **Vídeo MP4 incluido: 4 min 35,60 s, 41,58 MB.**
 
 La versión vigente está en [revision_academica](revision_academica/README.md): análisis de restaurantes asiáticos en Europa, foco en España, predicción de valoración, interpretabilidad y demostrador local. Madrid es una aplicación complementaria.
 

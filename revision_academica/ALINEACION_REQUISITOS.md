@@ -26,7 +26,7 @@ Correo de Carlos y Santiago aportado por el alumno en esta conversación: aproba
 | Conexión entre asignaturas | Python, estadística, ML, software y fuentes territoriales | Se prioriza pertinencia sobre cantidad de modelos |
 | Derechos / privacidad | DERECHOS_DATOS.md y metadatos Kaggle | No confundir declaración CC0 con derechos de terceros |
 | Memoria ≤20 caras | 10 páginas de cuerpo, portada e índice independientes | Verificar cualquier edición posterior |
-| Vídeo ≤5 min, voz propia | Peng_Chen_TFM_video.mp4, 4 min 35,90 s, 9,69 MB | Entrega en la plataforma pendiente del alumno |
+| Vídeo ≤5 min, voz propia | Peng_Chen_TFM_video.mp4, 4 min 35,60 s, 41,58 MB | Entrega en la plataforma pendiente del alumno |
 | Anexos y reproducibilidad | Código, notebook/HTML, artefactos y registro de partición | Descarga del dataset original por quien reproduzca |
 | Madrid | Sección de aplicación y anexos | No reemplaza rating por rentabilidad |
 

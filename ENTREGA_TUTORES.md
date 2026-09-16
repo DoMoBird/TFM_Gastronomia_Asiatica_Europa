@@ -2,7 +2,7 @@
 
 ## Estado de la entrega
 
-Memoria, vídeo y anexos disponibles. Vídeo MP4 de 4 min 35,90 s y 9,69 MB, con voz del alumno. Se conserva la grabación y su montaje, convertidos desde MOV a H.264/AAC. No consta una entrega en la plataforma docente.
+Memoria, vídeo y anexos disponibles. Vídeo MP4 de 4 min 35,60 s y 41,58 MB, con voz del alumno. Versión revisada por el alumno, con vídeo H.264 y audio AAC conservados sin recodificación. No consta una entrega en la plataforma docente.
 
 [Descargar vídeo MP4](https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/entrega/Peng_Chen_TFM_video.mp4). Si GitHub no ofrece reproducción en la página, descargar y abrir el archivo con un reproductor.
 

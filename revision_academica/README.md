@@ -47,7 +47,7 @@ Los informes y código están en `../investigacion_madrid/`. Población, renta, 
 
 ## Pendiente de entrega por el alumno
 
-Vídeo con voz propia incluido en `entrega/Peng_Chen_TFM_video.mp4`: 4 min 35,90 s, 9,69 MB, H.264/AAC, 1920×1246, 30 fps. Revisar la fecha vigente y entregar los enlaces en la plataforma docente. El correo docente no contiene una fecha concreta; la fecha 2025 del plan histórico no se usa como plazo vigente. El historial Git identifica la revisión publicada. No se ha enviado el trabajo a los tutores.
+Vídeo con voz propia incluido en `entrega/Peng_Chen_TFM_video.mp4`: 4 min 35,60 s, 41,58 MB, H.264/AAC, 1108×720, 30 fps. Revisar la fecha vigente y entregar los enlaces en la plataforma docente. El correo docente no contiene una fecha concreta; la fecha 2025 del plan histórico no se usa como plazo vigente. El historial Git identifica la revisión publicada. No se ha enviado el trabajo a los tutores.
 
 ## Regeneración de documentos
 

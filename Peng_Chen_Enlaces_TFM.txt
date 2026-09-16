@@ -13,7 +13,7 @@ https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/
 Memoria:
 https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/blob/main/revision_academica/entrega/memoria_revisada.pdf
 
-Vídeo MP4 (4 min 35,90 s; 9,69 MB):
+Vídeo MP4 (4 min 35,60 s; 41,58 MB):
 https://github.com/DoMoBird/TFM_Gastronomia_Asiatica_Europa/raw/refs/heads/main/revision_academica/entrega/Peng_Chen_TFM_video.mp4
 
 ESTADO: memoria, vídeo y anexos disponibles en el repositorio. La entrega en la plataforma docente debe realizarla el alumno.
