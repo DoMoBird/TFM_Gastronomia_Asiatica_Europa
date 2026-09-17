@@ -119,5 +119,5 @@ def footer(c,d):
         c.setFont('Arial',8);c.setFillColor(colors.HexColor('#687078'));c.drawString(65,32,'Peng Chen · Gastronomía asiática en Europa');c.drawRightString(W-65,32,str(d.page-2))
 E.mkdir(exist_ok=True)
 SimpleDocTemplate(str(E/'Peng_Chen_Memoria_TFM.pdf'),pagesize=A4,rightMargin=65,leftMargin=65,topMargin=52,bottomMargin=48,title='Gastronomía asiática en Europa',author='Peng Chen').build(story,onFirstPage=footer,onLaterPages=footer)
-(E/'memoria_revisada.md').write_text('\n'.join(md))
+(E/'Peng_Chen_Memoria_TFM.md').write_text('\n'.join(md))
 print('Memoria generada')

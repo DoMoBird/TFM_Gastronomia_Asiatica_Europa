@@ -5,7 +5,7 @@ Esta es la versión de trabajo alineada con la propuesta aprobada: **EDA europeo
 ## Lectura
 
 - `entrega/Peng_Chen_Memoria_TFM.pdf`: portada e índice propios, cuerpo de 10 páginas; párrafos justificados.
-- `entrega/presentacion_revisada_v4.pptx`: presentación vigente. Los guiones de grabación son material personal local y no se distribuyen.
+- `entrega/Peng_Chen_presentacion_TFM.pptx`: presentación vigente. Los guiones de grabación son material personal local y no se distribuyen.
 - `ALINEACION_REQUISITOS.md`: propuesta, guía y correo docente cotejados.
 - `DERECHOS_DATOS.md`: evidencia de uso y privacidad.
 - `entrega/anexo_modelizacion.ipynb` y `.html`: resultados ejecutados y ruta para reentrenar.
@@ -53,4 +53,4 @@ Vídeo con voz propia incluido en `entrega/Peng_Chen_TFM_video.mp4`: 4 min 35,60
 
 El cálculo y servicio funcionan con Python y las dependencias anteriores. El PDF requiere adicionalmente reportlab y las fuentes Arial del sistema macOS usadas en esta entrega; ajustar las rutas de fuentes en src/memoria.py en otro sistema. El PPT es editable directamente. Su generador src/presentacion.mjs requiere el runtime de artefactos de Codex (@oai/artifact-tool) y las variables PRESENTATIONS_SKILL_DIR, RUNTIME_PYTHON y RUNTIME_NODE_MODULES. No es una dependencia del entrenamiento. Al regenerar el PPT, usar un nombre de salida nuevo, porque el validador conserva las versiones previas.
 
-La presentación vigente es la v4, revisada página a página con captura real del demostrador. Para regenerarla, `src/presentacion.mjs` crea la base editable en `build/presentacion_base.pptx` y `src/revisar_presentacion_v3.mjs` produce la presentación vigente. El script restaura los libros de datos de los gráficos con `src/restaurar_libros_graficos.py` (lxml y openpyxl). Los guiones personales no se incluyen en las notas del PPT vigente.
+La presentación se ha revisado página a página con captura real del demostrador. Para regenerarla, `src/presentacion.mjs` crea la base editable en `build/presentacion_base.pptx` y `src/revisar_presentacion_v3.mjs` produce la presentación vigente. El script restaura los libros de datos de los gráficos con `src/restaurar_libros_graficos.py` (lxml y openpyxl). Los guiones personales no se incluyen en las notas del PPT vigente.

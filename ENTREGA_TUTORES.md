@@ -10,7 +10,7 @@ Memoria, vídeo y anexos disponibles. Vídeo MP4 de 4 min 35,60 s y 41,58 MB, co
 
 1. [Memoria PDF](Analisis_rest_Asiatico/entrega/Peng_Chen_Memoria_TFM.pdf).
 2. [Anexo de modelización ejecutado](Analisis_rest_Asiatico/entrega/anexo_modelizacion.html) y [notebook](Analisis_rest_Asiatico/entrega/anexo_modelizacion.ipynb). Descargar el HTML para visualizarlo localmente.
-3. [Presentación](Analisis_rest_Asiatico/entrega/presentacion_revisada_v4.pptx).
+3. [Presentación](Analisis_rest_Asiatico/entrega/Peng_Chen_presentacion_TFM.pptx).
 4. [Modelos y evaluación](Analisis_rest_Asiatico/resultados/) y [código](Analisis_rest_Asiatico/src/).
 5. [Derechos de datos](Analisis_rest_Asiatico/DERECHOS_DATOS.md), [reproducibilidad](REPRODUCIBILIDAD.md) e [investigación complementaria de Madrid](investigacion_madrid/README.md).
 

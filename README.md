@@ -6,7 +6,7 @@ La versión vigente está en [Analisis_rest_Asiatico](Analisis_rest_Asiatico/REA
 
 - [Vídeo MP4](Analisis_rest_Asiatico/entrega/Peng_Chen_TFM_video.mp4)
 - [Memoria PDF](Analisis_rest_Asiatico/entrega/Peng_Chen_Memoria_TFM.pdf)
-- [Presentación](Analisis_rest_Asiatico/entrega/presentacion_revisada_v4.pptx)
+- [Presentación](Analisis_rest_Asiatico/entrega/Peng_Chen_presentacion_TFM.pptx)
 - [Anexo ejecutado](Analisis_rest_Asiatico/entrega/anexo_modelizacion.html)
 - [Modelos reentrenados y evaluación](Analisis_rest_Asiatico/resultados/)
 - [Reproducibilidad](REPRODUCIBILIDAD.md)
